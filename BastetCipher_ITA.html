@@ -1,0 +1,2369 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta http-equiv="content-language" content="it">
+<meta name="googlebot" content="notranslate" />
+<meta name="author" content="zMykerd">
+<meta name='owner' content='zMykerd'>
+<meta name='reply-to' content='zera0mykerd@gmail.com'>
+<meta name='designer' content='zMykerd'>
+<meta name="copyright" content="zMykerd" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta charset="UTF-8">
+<!-- ═══ POLITICA DI SICUREZZA DEI CONTENUTI — blocca iniezioni inline, script remoti, ecc. ═══
+     script-src 'self' 'unsafe-inline': necessario perché tutto il JS è inline in questa
+     app a file singolo (nessuno script esterno viene caricato o è permesso).
+     style-src 'self' 'unsafe-inline': idem — tutto il CSS è inline.
+     img-src 'self' data:: consente solo il favicon in data-URI incorporato.
+     Tutto il resto (connect, object, frame, worker…) è bloccato da default-src 'none'.
+-->
+<meta http-equiv="Content-Security-Policy"
+  content="
+    default-src 'none';
+    script-src  'self' 'unsafe-inline';
+    style-src   'self' 'unsafe-inline' data:;
+    img-src     'self' data:;
+    font-src    'self' data:;
+    connect-src 'none';
+    object-src  'none';
+    frame-src   'none';
+    worker-src  'none';
+    base-uri    'none';
+    form-action 'none';
+  ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>вαѕтєт¢уρнєя 𓃭</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CradialGradient id='bg' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0%25' stop-color='%232a1e0a'/%3E%3Cstop offset='100%25' stop-color='%230f0c06'/%3E%3C/radialGradient%3E%3CradialGradient id='gold' cx='50%25' cy='35%25' r='60%25'%3E%3Cstop offset='0%25' stop-color='%23f0c040'/%3E%3Cstop offset='60%25' stop-color='%23c9a84c'/%3E%3Cstop offset='100%25' stop-color='%237a5c1e'/%3E%3C/radialGradient%3E%3CradialGradient id='eye' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0%25' stop-color='%2300ff88'/%3E%3Cstop offset='100%25' stop-color='%23006633'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='32' fill='url(%23bg)'/%3E%3Ccircle cx='32' cy='32' r='30' fill='none' stroke='%23c9a84c' stroke-width='1.2' opacity='0.7'/%3E%3Cpolygon points='32,6 60,56 4,56' fill='none' stroke='%23c9a84c' stroke-width='1' opacity='0.35'/%3E%3Crect x='12' y='54' width='40' height='7' rx='2' fill='url(%23gold)'/%3E%3Cpath d='M20 54 L20 36 Q20 27 32 25 Q44 27 44 36 L44 54 Z' fill='url(%23gold)'/%3E%3Cellipse cx='32' cy='24' rx='14' ry='12' fill='url(%23gold)'/%3E%3Cpolygon points='20,16 15,4 26,13' fill='url(%23gold)'/%3E%3Cpolygon points='44,16 49,4 38,13' fill='url(%23gold)'/%3E%3Cellipse cx='26' cy='22' rx='4' ry='3' fill='url(%23eye)'/%3E%3Cellipse cx='38' cy='22' rx='4' ry='3' fill='url(%23eye)'/%3E%3Cellipse cx='26' cy='22' rx='2' ry='2.5' fill='%23000'/%3E%3Cellipse cx='38' cy='22' rx='2' ry='2.5' fill='%23000'/%3E%3Ccircle cx='27' cy='21' r='1' fill='%23fff' opacity='0.9'/%3E%3Ccircle cx='39' cy='21' r='1' fill='%23fff' opacity='0.9'/%3E%3Cpath d='M22 22 L26 21 L30 22' fill='none' stroke='%231a1208' stroke-width='0.8'/%3E%3Cpath d='M34 22 L38 21 L42 22' fill='none' stroke='%231a1208' stroke-width='0.8'/%3E%3Cellipse cx='32' cy='58' rx='3' ry='2' fill='%23c9a84c' opacity='0.6'/%3E%3C/svg%3E">
+<style type="text/css">
+  /* ═══════════════════════════════════════════
+     FONT E VARIABILI RADICE
+  ═══════════════════════════════════════════ */
+  @import url('data:text/css,');
+
+  :root {
+    --gold: #c9a84c;
+    --gold-bright: #f0c040;
+    --gold-dark: #7a5c1e;
+    --stone: #2a2318;
+    --stone-mid: #3d3220;
+    --stone-light: #5a4a2a;
+    --stone-pale: #8a7550;
+    --glow-amber: #ff8c00;
+    --glow-orange: #ff6a00;
+    --glow-blue: #4af;
+    --emerald: #00c896;
+    --sand: #d4b483;
+    --deep: #0f0c06;
+    --ink: #1a1408;
+    --rune-glow: rgba(201,168,76,0.85);
+    --shadow-deep: rgba(0,0,0,0.85);
+    --torch1: #ff9a00;
+    --torch2: #ff5500;
+    --torch3: #ffcc00;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  html, body {
+    min-height: 100vh;
+    background: var(--deep);
+    color: var(--sand);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    overflow-x: hidden;
+  }
+
+  /* ═══════════════════════════════════════════
+     CAMERA DI SFONDO
+  ═══════════════════════════════════════════ */
+  #chamber {
+    position: fixed; inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 100%, #3a2800 0%, transparent 70%),
+      radial-gradient(ellipse 60% 40% at 50% 0%,   #2a1a00 0%, transparent 60%),
+      linear-gradient(180deg, #0a0800 0%, #1a1206 40%, #0f0c06 100%);
+  }
+
+  /* Sovrapposizione texture muro di pietra */
+  #chamber::before {
+    content:'';
+    position:absolute; inset:0;
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(0,0,0,0.18) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 59px, rgba(0,0,0,0.10) 60px);
+    pointer-events:none;
+  }
+
+  /* ═══════════════════════════════════════════
+     CANVAS PARTICELLE DI SABBIA
+  ═══════════════════════════════════════════ */
+  #particles-canvas {
+    position:fixed; inset:0; z-index:1;
+    pointer-events:none;
+  }
+
+  /* ═══════════════════════════════════════════
+     GEROGLIFICI MURALI (SFONDO)
+  ═══════════════════════════════════════════ */
+  .wall-glyphs {
+    position:fixed; z-index:2;
+    opacity:0.18;
+    pointer-events:none;
+  }
+  .wall-glyphs.left  { left:0;  top:0; height:100vh; width:120px; }
+  .wall-glyphs.right { right:0; top:0; height:100vh; width:120px; transform:scaleX(-1); }
+
+  /* ═══════════════════════════════════════════
+     LUCI DELLE TORCE
+  ═══════════════════════════════════════════ */
+  .torch {
+    position:fixed; z-index:3;
+    width:60px; height:100px;
+    pointer-events:none;
+  }
+  .torch.tl { top:80px; left:60px; }
+  .torch.tr { top:80px; right:60px; }
+  .torch.bl { bottom:80px; left:60px; }
+  .torch.br { bottom:80px; right:60px; }
+
+  .torch-glow {
+    position:absolute;
+    border-radius:50%;
+    animation: torchFlicker 2.5s ease-in-out infinite;
+  }
+  .torch.tl .torch-glow { box-shadow:0 0 80px 40px rgba(255,140,0,0.22); width:80px; height:80px; top:-20px; left:-20px; }
+  .torch.tr .torch-glow { box-shadow:0 0 80px 40px rgba(255,140,0,0.22); width:80px; height:80px; top:-20px; left:-20px; }
+  .torch.bl .torch-glow { box-shadow:0 0 60px 30px rgba(255,100,0,0.15); width:60px; height:60px; top:-10px; left:0; }
+  .torch.br .torch-glow { box-shadow:0 0 60px 30px rgba(255,100,0,0.15); width:60px; height:60px; top:-10px; left:0; }
+
+  @keyframes torchFlicker {
+    0%,100% { opacity:1;   transform:scale(1); }
+    20%      { opacity:0.8; transform:scale(0.95); }
+    40%      { opacity:1;   transform:scale(1.05); }
+    60%      { opacity:0.85;transform:scale(0.98); }
+    80%      { opacity:1;   transform:scale(1.02); }
+  }
+
+  /* ═══════════════════════════════════════════
+     GLIFO PIRAMIDE DI SFONDO
+  ═══════════════════════════════════════════ */
+  #bg-pyramid {
+    position:fixed; bottom:0; left:50%;
+    transform:translateX(-50%);
+    z-index:2; opacity:0.07;
+    pointer-events:none;
+    width:600px; height:500px;
+    animation: pyramidPulse 6s ease-in-out infinite;
+  }
+
+  @keyframes pyramidPulse {
+    0%,100% { opacity:0.07; filter:drop-shadow(0 0 0px #c9a84c); }
+    50%     { opacity:0.13; filter:drop-shadow(0 0 30px #c9a84c); }
+  }
+
+  /* ═══════════════════════════════════════════
+     SCORRIMENTO PRINCIPALE / LAYOUT
+  ═══════════════════════════════════════════ */
+  #app {
+    position:relative; z-index:10;
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center;
+    padding:40px 20px 80px;
+  }
+
+  /* ═══════════════════════════════════════════
+     CORONA DELL'INTESTAZIONE
+  ═══════════════════════════════════════════ */
+  #header {
+    text-align:center;
+    margin-bottom:32px;
+    position:relative;
+  }
+
+  #bastet-statue-wrap {
+    display:flex;
+    justify-content:center;
+    margin-bottom:12px;
+    position:relative;
+  }
+
+  #bastet-statue-wrap::after {
+    content:'';
+    position:absolute;
+    bottom:-8px; left:50%;
+    transform:translateX(-50%);
+    width:200px; height:20px;
+    background:radial-gradient(ellipse, rgba(201,168,76,0.4) 0%, transparent 70%);
+    animation: eyeGlow 3s ease-in-out infinite;
+  }
+
+  .app-title {
+    font-size:clamp(2.4rem, 6vw, 4rem);
+    font-weight:700;
+    letter-spacing:0.25em;
+    text-transform:uppercase;
+    background: linear-gradient(135deg, #a07020 0%, #f0c040 35%, #c9a84c 55%, #f0d060 75%, #a07020 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+    filter:drop-shadow(0 0 20px rgba(201,168,76,0.6));
+    animation: titleShimmer 4s ease-in-out infinite;
+    font-family:'Palatino Linotype','Palatino','Book Antiqua', serif;
+  }
+
+  @keyframes titleShimmer {
+    0%,100% { filter:drop-shadow(0 0 20px rgba(201,168,76,0.6)); }
+    50%     { filter:drop-shadow(0 0 40px rgba(240,192,64,0.9)); }
+  }
+
+  .app-tagline {
+    margin-top:10px;
+    font-size:clamp(0.85rem, 2vw, 1.05rem);
+    color:var(--stone-pale);
+    letter-spacing:0.15em;
+    font-style:italic;
+    animation: taglineFade 5s ease-in-out infinite;
+  }
+
+  @keyframes taglineFade {
+    0%,100% { opacity:0.75; }
+    50%     { opacity:1; color: var(--gold); }
+  }
+
+  .divider-runes {
+    margin:16px auto 0;
+    display:flex; align-items:center; gap:12px;
+    justify-content:center;
+  }
+  .divider-runes span { color:var(--gold); font-size:1.2rem; opacity:0.7; animation:runeFlicker 3s ease-in-out infinite; }
+  .divider-runes span:nth-child(2){ animation-delay:0.5s; }
+  .divider-runes span:nth-child(3){ animation-delay:1s; }
+  .divider-rune-line { flex:1; max-width:120px; height:1px; background:linear-gradient(90deg,transparent,var(--gold-dark),transparent); }
+
+  @keyframes runeFlicker {
+    0%,100%{ opacity:0.7; text-shadow:none; }
+    50%{ opacity:1; text-shadow:0 0 12px var(--gold-bright); }
+  }
+
+  /* ═══════════════════════════════════════════
+     PANNELLO ALTARE (SCHEDA PRINCIPALE)
+  ═══════════════════════════════════════════ */
+  #altar {
+    width:100%; max-width:780px;
+    background:
+      linear-gradient(160deg, #2e2414 0%, #1e180e 40%, #251e10 100%);
+    border:1px solid var(--gold-dark);
+    border-radius:4px;
+    box-shadow:
+      0 0 0 1px #1a1208,
+      0 0 0 3px var(--gold-dark),
+      0 0 60px rgba(201,168,76,0.12),
+      inset 0 1px 0 rgba(201,168,76,0.15),
+      inset 0 -1px 0 rgba(0,0,0,0.5);
+    position:relative;
+    overflow:visible;
+    padding:40px 40px 36px;
+    animation: altarGlow 8s ease-in-out infinite;
+  }
+
+  @keyframes altarGlow {
+    0%,100%{ box-shadow: 0 0 0 1px #1a1208, 0 0 0 3px var(--gold-dark), 0 0 60px rgba(201,168,76,0.12), inset 0 1px 0 rgba(201,168,76,0.15), inset 0 -1px 0 rgba(0,0,0,0.5); }
+    50%    { box-shadow: 0 0 0 1px #1a1208, 0 0 0 3px var(--gold),      0 0 100px rgba(201,168,76,0.25), inset 0 1px 0 rgba(201,168,76,0.25), inset 0 -1px 0 rgba(0,0,0,0.5); }
+  }
+
+  /* Ornamenti angolari dell'altare */
+  #altar::before, #altar::after {
+    content:'𓂀';
+    position:absolute;
+    font-size:1.5rem;
+    color:var(--gold-dark);
+    animation:cornerGlow 4s ease-in-out infinite;
+  }
+  #altar::before { top:10px; left:14px; }
+  #altar::after  { top:10px; right:14px; }
+  @keyframes cornerGlow {
+    0%,100%{ color:var(--gold-dark); }
+    50%{ color:var(--gold-bright); text-shadow:0 0 10px var(--gold); }
+  }
+
+  /* Fasce bordo inciso superiore/inferiore */
+  .altar-band {
+    height:6px;
+    background:repeating-linear-gradient(90deg,
+      var(--gold-dark) 0, var(--gold-dark) 8px,
+      transparent 8px, transparent 16px,
+      var(--stone-light) 16px, var(--stone-light) 20px,
+      transparent 20px, transparent 28px
+    );
+    margin:-40px -40px 28px;
+    opacity:0.6;
+    animation:bandScroll 12s linear infinite;
+  }
+  .altar-band.bottom { margin:28px -40px -36px; }
+  @keyframes bandScroll {
+    from{ background-position:0 0; }
+    to  { background-position:100px 0; }
+  }
+
+  /* ═══════════════════════════════════════════
+     RUOTA DEL CIFRARIO + RIGA OCCHI DI BASTET
+  ═══════════════════════════════════════════ */
+  .altar-top-row {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:28px;
+    gap:16px;
+  }
+
+  #cipher-wheel-wrap {
+    flex-shrink:0;
+    animation: wheelSpin 20s linear infinite;
+    transform-origin:center;
+  }
+  #cipher-wheel-wrap.spinning {
+    animation: wheelSpinFast 1s linear infinite;
+  }
+  @keyframes wheelSpin     { from{transform:rotate(0deg);}   to{transform:rotate(360deg);}   }
+  @keyframes wheelSpinFast { from{transform:rotate(0deg);}   to{transform:rotate(360deg);}   }
+
+  #bastet-eyes-wrap {
+    flex:1;
+    display:flex; flex-direction:column;
+    align-items:center; gap:4px;
+  }
+
+  .bastet-section-title {
+    font-size:0.72rem;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--stone-pale);
+    margin-bottom:4px;
+  }
+
+  /* Indicatore luminoso occhi di Bastet */
+  .bastet-eyes-indicator {
+    display:flex; gap:20px; align-items:center;
+  }
+  .eye-orb {
+    width:22px; height:14px;
+    border-radius:50%;
+    background:radial-gradient(ellipse, #1a3a1a 60%, #0a200a 100%);
+    border:1px solid #2a5a2a;
+    position:relative;
+    transition: all 0.5s ease;
+  }
+  .eye-orb::after {
+    content:'';
+    position:absolute; inset:3px;
+    border-radius:50%;
+    background:radial-gradient(ellipse, #003300 0%, transparent 100%);
+    transition: all 0.5s;
+  }
+  .eye-orb.active {
+    background:radial-gradient(ellipse, #00ff88 0%, #00cc44 50%, #003322 100%);
+    border-color: var(--emerald);
+    box-shadow:0 0 16px var(--emerald), 0 0 32px rgba(0,200,150,0.5);
+    animation: eyePulse 1s ease-in-out infinite;
+  }
+  .eye-orb.active::after {
+    background:radial-gradient(ellipse, #ffffff 0%, #00ffcc 50%, transparent 100%);
+  }
+  @keyframes eyePulse {
+    0%,100%{ box-shadow:0 0 16px var(--emerald), 0 0 32px rgba(0,200,150,0.5); }
+    50%    { box-shadow:0 0 32px var(--emerald), 0 0 64px rgba(0,200,150,0.7); }
+  }
+
+  /* Icona lucchetto */
+  .lock-status {
+    font-size:1.4rem;
+    transition: all 0.5s;
+    filter:grayscale(1) opacity(0.4);
+  }
+  .lock-status.unlocked {
+    filter:grayscale(0) drop-shadow(0 0 8px var(--gold-bright));
+    animation: lockBounce 0.5s ease;
+  }
+  @keyframes lockBounce {
+    0%  { transform:scale(1); }
+    40% { transform:scale(1.4) rotate(-10deg); }
+    70% { transform:scale(0.9) rotate(5deg); }
+    100%{ transform:scale(1); }
+  }
+
+  /* ═══════════════════════════════════════════
+     ELEMENTI DEL MODULO
+  ═══════════════════════════════════════════ */
+  .field-group {
+    margin-bottom:22px;
+  }
+
+  .field-label {
+    display:block;
+    font-size:0.78rem;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--stone-pale);
+    margin-bottom:8px;
+    font-family:'Palatino Linotype','Palatino', serif;
+  }
+
+  .field-label span {
+    color:var(--gold);
+    font-size:1rem;
+    margin-right:6px;
+  }
+
+  .stone-input {
+    width:100%;
+    background:linear-gradient(135deg, #16120a 0%, #1e1810 100%);
+    border:1px solid var(--gold-dark);
+    border-radius:2px;
+    color:var(--sand);
+    font-family:'Georgia', serif;
+    font-size:1rem;
+    padding:14px 16px;
+    outline:none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    caret-color:var(--gold);
+    box-shadow:inset 0 2px 8px rgba(0,0,0,0.5);
+  }
+  .stone-input::placeholder { color:var(--stone-pale); opacity:0.6; font-style:italic; }
+  .stone-input:focus {
+    border-color:var(--gold);
+    box-shadow:0 0 0 2px rgba(201,168,76,0.2), inset 0 2px 8px rgba(0,0,0,0.5);
+  }
+
+  .pim-note {
+    margin-top:8px;
+    font-size:0.75rem;
+    color:var(--stone-pale);
+    opacity:0.8;
+    line-height:1.6;
+    padding-left:4px;
+    border-left:2px solid var(--gold-dark);
+  }
+  .pim-note strong { color:var(--gold); }
+
+  /* ═══════════════════════════════════════════
+     PULSANTE GENERA
+  ═══════════════════════════════════════════ */
+  #btn-generate {
+    width:100%;
+    padding:18px 24px;
+    background:linear-gradient(135deg, #3d2e10 0%, #5a4420 50%, #3d2e10 100%);
+    border:1px solid var(--gold-dark);
+    border-radius:2px;
+    color:var(--gold-bright);
+    font-family:'Palatino Linotype','Palatino', serif;
+    font-size:1.1rem;
+    font-weight:700;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:all 0.3s ease;
+    box-shadow:0 4px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(201,168,76,0.2);
+  }
+  #btn-generate::before {
+    content:'';
+    position:absolute; top:0; left:-100%;
+    width:100%; height:100%;
+    background:linear-gradient(90deg, transparent, rgba(201,168,76,0.15), transparent);
+    transition:left 0.5s ease;
+  }
+  #btn-generate:hover::before { left:100%; }
+  #btn-generate:hover {
+    border-color:var(--gold);
+    box-shadow:0 0 20px rgba(201,168,76,0.3), 0 4px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(201,168,76,0.3);
+    color:#fff;
+    background:linear-gradient(135deg, #4d3e20 0%, #7a6030 50%, #4d3e20 100%);
+  }
+  #btn-generate:active { transform:scale(0.99); }
+  #btn-generate:disabled { opacity:0.6; cursor:not-allowed; }
+
+  /* Striscia lucente sul pulsante */
+  .btn-shimmer {
+    position:absolute; top:0; left:0; right:0;
+    height:1px;
+    background:linear-gradient(90deg, transparent, rgba(240,192,64,0.8), transparent);
+    animation:shimmerSlide 3s ease-in-out infinite;
+  }
+  @keyframes shimmerSlide {
+    from{ transform:translateX(-100%); }
+    to  { transform:translateX(200%); }
+  }
+
+  /* Decorazioni rune sul pulsante */
+  .btn-runes {
+    display:inline-flex; gap:12px;
+    margin-right:10px;
+    font-size:0.9rem;
+    opacity:0.6;
+  }
+
+  /* ═══════════════════════════════════════════
+     BARRA DI AVANZAMENTO / STATO
+  ═══════════════════════════════════════════ */
+  #status-bar {
+    margin-top:16px;
+    height:20px;
+    background:rgba(0,0,0,0.4);
+    border:1px solid var(--gold-dark);
+    border-radius:2px;
+    overflow:hidden;
+    display:none;
+    position:relative;
+  }
+  #status-bar.active { display:block; }
+  #progress-fill {
+    height:100%;
+    background:linear-gradient(90deg, var(--gold-dark), var(--gold-bright), var(--gold-dark));
+    background-size:200% 100%;
+    animation:progressShimmer 1s linear infinite;
+    transition:width 0.3s ease;
+    width:0%;
+  }
+  @keyframes progressShimmer {
+    from{ background-position:100% 0; }
+    to  { background-position:-100% 0; }
+  }
+  #status-text {
+    position:absolute; inset:0;
+    display:flex; align-items:center; justify-content:center;
+    font-size:0.7rem;
+    letter-spacing:0.15em;
+    color:var(--gold);
+    text-transform:uppercase;
+    mix-blend-mode:difference;
+  }
+
+  /* ═══════════════════════════════════════════
+     PANNELLO OUTPUT (TAVOLETTA DI PIETRA)
+  ═══════════════════════════════════════════ */
+  #output-section {
+    margin-top:28px;
+    display:none;
+    animation:fadeInUp 0.6s ease forwards;
+  }
+  #output-section.visible { display:block; }
+
+  @keyframes fadeInUp {
+    from{ opacity:0; transform:translateY(20px); }
+    to  { opacity:1; transform:translateY(0); }
+  }
+
+  .output-label {
+    display:flex; align-items:center; justify-content:space-between;
+    margin-bottom:10px;
+  }
+
+  #output-panel {
+    background:linear-gradient(160deg, #0e0b06 0%, #16120a 100%);
+    border:1px solid var(--gold-dark);
+    border-radius:2px;
+    padding:20px;
+    max-height:220px;
+    overflow-y:auto;
+    font-family:'Courier New', 'Consolas', monospace;
+    font-size:0.78rem;
+    line-height:1.8;
+    letter-spacing:0.04em;
+    word-break:break-all;
+    color:#88cc88;
+    box-shadow:inset 0 2px 16px rgba(0,0,0,0.6);
+    position:relative;
+  }
+  #output-panel::-webkit-scrollbar { width:4px; }
+  #output-panel::-webkit-scrollbar-track { background:transparent; }
+  #output-panel::-webkit-scrollbar-thumb { background:var(--gold-dark); border-radius:2px; }
+
+  #output-text {
+    white-space:pre-wrap;
+    /* bagliore verde del cifrario */
+    text-shadow:0 0 6px rgba(100,200,100,0.4);
+  }
+
+  /* Sovrapposizione vortice di energia durante la generazione */
+  #swirl-overlay {
+    position:absolute; inset:0;
+    pointer-events:none;
+    opacity:0;
+    transition:opacity 0.3s;
+    background:radial-gradient(ellipse at center, rgba(201,168,76,0.08) 0%, transparent 70%);
+    animation:swirlPulse 0.5s ease-in-out infinite;
+  }
+  #swirl-overlay.active { opacity:1; }
+  @keyframes swirlPulse {
+    0%,100%{ transform:scale(1); opacity:0.5; }
+    50%    { transform:scale(1.02); opacity:1; }
+  }
+
+  /* Effetto cursore di digitazione durante la generazione */
+  .cipher-cursor::after {
+    content:'█';
+    animation:blink 0.7s step-end infinite;
+    color:var(--gold-bright);
+  }
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+  /* ═══════════════════════════════════════════
+     PULSANTE COPIA
+  ═══════════════════════════════════════════ */
+  #btn-copy {
+    padding:10px 20px;
+    background:linear-gradient(135deg, #1a2a1a 0%, #2a3e2a 100%);
+    border:1px solid #2a5a2a;
+    border-radius:2px;
+    color:var(--emerald);
+    font-size:0.8rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    cursor:pointer;
+    font-family:'Georgia', serif;
+    transition:all 0.3s;
+  }
+  #btn-copy:hover {
+    border-color:var(--emerald);
+    box-shadow:0 0 12px rgba(0,200,150,0.3);
+    color:#fff;
+  }
+  #btn-copy.copied {
+    background:linear-gradient(135deg, #0a2a0a 0%, #0a4a0a 100%);
+    border-color:var(--emerald);
+    box-shadow:0 0 20px rgba(0,200,150,0.5);
+  }
+
+  /* ═══════════════════════════════════════════
+     RIGA STATISTICHE
+  ═══════════════════════════════════════════ */
+  .cipher-stats {
+    display:flex; gap:24px; flex-wrap:wrap;
+    margin-top:14px;
+  }
+  .stat-badge {
+    font-size:0.7rem;
+    letter-spacing:0.1em;
+    color:var(--stone-pale);
+    text-transform:uppercase;
+  }
+  .stat-badge strong {
+    color:var(--gold);
+    margin-left:4px;
+  }
+
+  /* ═══════════════════════════════════════════
+     PIÈ DI PAGINA
+  ═══════════════════════════════════════════ */
+  #footer {
+    margin-top:32px;
+    text-align:center;
+    font-size:0.72rem;
+    color:var(--stone-pale);
+    opacity:0.6;
+    letter-spacing:0.12em;
+  }
+  #footer .hieroglyph-row {
+    font-size:1rem;
+    letter-spacing:0.3em;
+    margin-bottom:6px;
+    animation:runeFlicker 4s ease-in-out infinite;
+  }
+
+  /* ═══════════════════════════════════════════
+     ANIMAZIONE ESPLOSIONE RUNE (durante la generazione)
+  ═══════════════════════════════════════════ */
+  .rune-burst {
+    position:fixed;
+    font-size:1.2rem;
+    color:var(--gold-bright);
+    pointer-events:none;
+    z-index:999;
+    animation:runeBurstAnim 1.2s ease-out forwards;
+  }
+  @keyframes runeBurstAnim {
+    0%  { opacity:1; transform:translate(0,0) scale(1); }
+    100%{ opacity:0; transform:translate(var(--tx),var(--ty)) scale(0.3); }
+  }
+
+  /* ═══════════════════════════════════════════
+     STATO ERRORE
+  ═══════════════════════════════════════════ */
+  .error-msg {
+    color:#ff6060;
+    font-size:0.8rem;
+    margin-top:8px;
+    letter-spacing:0.08em;
+    display:none;
+  }
+  .error-msg.visible { display:block; }
+
+  /* ═══════════════════════════════════════════
+     RESPONSIVE
+  ═══════════════════════════════════════════ */
+  @media (max-width:600px) {
+    #altar { padding:28px 20px 24px; }
+    .altar-band { margin:-28px -20px 20px; }
+    .altar-band.bottom { margin:20px -20px -24px; }
+    .altar-top-row { flex-direction:column; align-items:center; }
+    .cipher-stats { gap:12px; }
+    .torch.bl, .torch.br { display:none; }
+  }
+
+  /* ═══════════════════════════════════════════
+     BAGLIORE ATTIVO PIRAMIDE
+  ═══════════════════════════════════════════ */
+  #bg-pyramid.active {
+    animation:pyramidActive 0.5s ease-in-out infinite !important;
+    opacity:0.22 !important;
+  }
+  @keyframes pyramidActive {
+    0%,100%{ opacity:0.22; filter:drop-shadow(0 0 30px #c9a84c); }
+    50%    { opacity:0.32; filter:drop-shadow(0 0 60px #f0c040); }
+  }
+
+  /* ═══════════════════════════════════════════
+     ANIMAZIONI FIAMMA TORCIA
+  ═══════════════════════════════════════════ */
+  .flame-core {
+    transform-origin: 50% 100%;
+    animation: flameDance 0.9s ease-in-out infinite alternate;
+  }
+  .flame-mid {
+    transform-origin: 50% 100%;
+    animation: flameMid 1.1s ease-in-out infinite alternate;
+    animation-delay: 0.15s;
+  }
+  .flame-tip {
+    transform-origin: 50% 100%;
+    animation: flameTip 0.7s ease-in-out infinite alternate;
+    animation-delay: 0.08s;
+  }
+  .flame-inner {
+    transform-origin: 50% 100%;
+    animation: flameInner 0.6s ease-in-out infinite alternate;
+    animation-delay: 0.22s;
+  }
+  /* Tempi leggermente diversi per la torcia destra così non si sincronizzano */
+  .torch.tr .flame-core  { animation-duration: 0.85s; animation-delay: 0.3s; }
+  .torch.tr .flame-mid   { animation-duration: 1.05s; animation-delay: 0.45s; }
+  .torch.tr .flame-tip   { animation-duration: 0.75s; animation-delay: 0.1s; }
+  .torch.tr .flame-inner { animation-duration: 0.65s; animation-delay: 0.38s; }
+
+  @keyframes flameDance {
+    0%   { transform: scaleX(1)   scaleY(1)    skewX(0deg);   opacity: 0.95; }
+    25%  { transform: scaleX(1.1) scaleY(0.96) skewX(4deg);   opacity: 1; }
+    50%  { transform: scaleX(0.9) scaleY(1.04) skewX(-3deg);  opacity: 0.9; }
+    75%  { transform: scaleX(1.08)scaleY(0.98) skewX(2deg);   opacity: 1; }
+    100% { transform: scaleX(0.95)scaleY(1.02) skewX(-2deg);  opacity: 0.92; }
+  }
+  @keyframes flameMid {
+    0%   { transform: scaleX(1)   scaleY(1)    skewX(-2deg);  opacity: 0.85; }
+    33%  { transform: scaleX(1.12)scaleY(0.94) skewX(5deg);   opacity: 0.75; }
+    66%  { transform: scaleX(0.88)scaleY(1.06) skewX(-4deg);  opacity: 0.9; }
+    100% { transform: scaleX(1.05)scaleY(0.97) skewX(3deg);   opacity: 0.8; }
+  }
+  @keyframes flameTip {
+    0%   { transform: scaleX(1)   scaleY(1)    translateX(0px);  opacity: 0.7; }
+    40%  { transform: scaleX(1.15)scaleY(0.9)  translateX(2px);  opacity: 0.5; }
+    100% { transform: scaleX(0.85)scaleY(1.1)  translateX(-2px); opacity: 0.65; }
+  }
+  @keyframes flameInner {
+    0%   { transform: scaleY(1)   opacity: 0.5; }
+    50%  { transform: scaleY(1.1) opacity: 0.35; }
+    100% { transform: scaleY(0.9) opacity: 0.55; }
+  }
+
+  /* Braci che salgono */
+  .ember {
+    position: absolute;
+    width: 2px; height: 2px;
+    border-radius: 50%;
+    background: #ffcc00;
+    pointer-events: none;
+    animation: emberFloat var(--dur, 1.4s) ease-out infinite;
+    animation-delay: var(--del, 0s);
+    left: var(--lx, 30px);
+    top: 30px;
+  }
+  @keyframes emberFloat {
+    0%   { transform: translate(0, 0)     scale(1);   opacity: 0.9; }
+    40%  { transform: translate(var(--tx,3px), -18px) scale(0.8); opacity: 0.7; }
+    100% { transform: translate(var(--tx2,-4px), -42px) scale(0.2); opacity: 0; }
+  }
+
+
+  ::-webkit-scrollbar { width:6px; height:6px; }
+  ::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+  ::-webkit-scrollbar-thumb { background:var(--gold-dark); border-radius:3px; }
+</style>
+</head>
+<body>
+
+<!-- ════════════ CAMERA DI SFONDO ════════════ -->
+<div id="chamber"></div>
+
+<!-- ════════════ CANVAS PARTICELLE ════════════ -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- ════════════ PIRAMIDE DI SFONDO ════════════ -->
+<svg id="bg-pyramid" viewBox="0 0 600 500">
+  <polygon points="300,20 580,480 20,480" fill="none" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="300,100 500,480 100,480" fill="none" stroke="#c9a84c" stroke-width="1.2" opacity="0.6"/>
+  <polygon points="300,180 420,480 180,480" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.4"/>
+  <line x1="300" y1="20" x2="300" y2="480" stroke="#c9a84c" stroke-width="0.6" opacity="0.3"/>
+  <line x1="300" y1="20" x2="20" y2="480" stroke="#c9a84c" stroke-width="0.4" opacity="0.2"/>
+  <line x1="300" y1="20" x2="580" y2="480" stroke="#c9a84c" stroke-width="0.4" opacity="0.2"/>
+  <!-- Occhio di Ra nella piramide -->
+  <ellipse cx="300" cy="260" rx="30" ry="18" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="300" cy="260" r="10" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.7"/>
+  <circle cx="300" cy="260" r="4" fill="#c9a84c" opacity="0.9"/>
+</svg>
+
+<!-- ════════════ GLIFI MURALI ════════════ -->
+<svg class="wall-glyphs left" viewBox="0 0 120 800">
+  <rect width="120" height="800" fill="none"/>
+  <!-- Colonna bordo verticale -->
+  <rect x="8" y="0" width="6" height="800" fill="#c9a84c" opacity="0.3"/>
+  <rect x="106" y="0" width="6" height="800" fill="#c9a84c" opacity="0.15"/>
+  <!-- Glifi in pila -->
+  <text x="40" y="60"  font-size="28" fill="#c9a84c">𓃠</text>
+  <text x="38" y="120" font-size="26" fill="#c9a84c">𓂀</text>
+  <text x="36" y="178" font-size="30" fill="#c9a84c">𓆣</text>
+  <text x="38" y="236" font-size="28" fill="#c9a84c">𓇯</text>
+  <text x="40" y="296" font-size="26" fill="#c9a84c">𓋹</text>
+  <text x="36" y="354" font-size="30" fill="#c9a84c">𓊹</text>
+  <text x="38" y="412" font-size="28" fill="#c9a84c">𓁹</text>
+  <text x="40" y="470" font-size="26" fill="#c9a84c">𓃠</text>
+  <text x="36" y="528" font-size="30" fill="#c9a84c">𓂀</text>
+  <text x="38" y="586" font-size="28" fill="#c9a84c">𓆣</text>
+  <text x="40" y="644" font-size="26" fill="#c9a84c">𓇯</text>
+  <text x="36" y="702" font-size="30" fill="#c9a84c">𓋹</text>
+  <text x="38" y="760" font-size="28" fill="#c9a84c">𓊹</text>
+</svg>
+
+<svg class="wall-glyphs right" viewBox="0 0 120 800">
+  <rect width="120" height="800" fill="none"/>
+  <rect x="8"  y="0" width="6" height="800" fill="#c9a84c" opacity="0.3"/>
+  <rect x="106" y="0" width="6" height="800" fill="#c9a84c" opacity="0.15"/>
+  <text x="40" y="60"  font-size="28" fill="#c9a84c">𓊹</text>
+  <text x="38" y="120" font-size="26" fill="#c9a84c">𓁹</text>
+  <text x="36" y="178" font-size="30" fill="#c9a84c">𓃠</text>
+  <text x="38" y="236" font-size="28" fill="#c9a84c">𓂀</text>
+  <text x="40" y="296" font-size="26" fill="#c9a84c">𓆣</text>
+  <text x="36" y="354" font-size="30" fill="#c9a84c">𓇯</text>
+  <text x="38" y="412" font-size="28" fill="#c9a84c">𓋹</text>
+  <text x="40" y="470" font-size="26" fill="#c9a84c">𓊹</text>
+  <text x="36" y="528" font-size="30" fill="#c9a84c">𓁹</text>
+  <text x="38" y="586" font-size="28" fill="#c9a84c">𓃠</text>
+  <text x="40" y="644" font-size="26" fill="#c9a84c">𓂀</text>
+  <text x="36" y="702" font-size="30" fill="#c9a84c">𓆣</text>
+  <text x="38" y="760" font-size="28" fill="#c9a84c">𓇯</text>
+</svg>
+
+<!-- ════════════ TORCE ════════════ -->
+<div class="torch tl">
+  <div class="torch-glow"></div>
+  <!-- Braci di scintille -->
+  <div class="ember" style="--lx:28px;--dur:1.3s;--del:0s;  --tx:4px; --tx2:-3px;"></div>
+  <div class="ember" style="--lx:32px;--dur:1.6s;--del:0.4s;--tx:-5px;--tx2:3px; background:#ff9900;"></div>
+  <div class="ember" style="--lx:26px;--dur:1.1s;--del:0.7s;--tx:2px; --tx2:-6px;background:#fff;width:1px;height:1px;"></div>
+  <div class="ember" style="--lx:34px;--dur:1.8s;--del:0.2s;--tx:-3px;--tx2:5px; background:#ff6600;"></div>
+  <svg width="60" height="100" viewBox="0 0 60 100" style="overflow:visible;">
+    <defs>
+      <radialGradient id="flameGrad1" cx="50%" cy="80%" r="60%">
+        <stop offset="0%"   stop-color="#ffffff"/>
+        <stop offset="25%"  stop-color="#ffe066"/>
+        <stop offset="60%"  stop-color="#ff6600"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+      <radialGradient id="flameMidGrad1" cx="50%" cy="85%" r="55%">
+        <stop offset="0%"   stop-color="#fff4aa"/>
+        <stop offset="50%"  stop-color="#ffaa00"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+    </defs>
+    <!-- Manico della torcia -->
+    <rect x="25" y="55" width="10" height="40" rx="2" fill="#5a3a10"/>
+    <rect x="22" y="48" width="16" height="12" rx="2" fill="#6a4a18"/>
+    <ellipse cx="30" cy="48" rx="10" ry="6" fill="#7a5a20"/>
+    <!-- Strati della fiamma — dal più esterno all'interno -->
+    <ellipse class="flame-core" cx="30" cy="28" rx="9"  ry="22" fill="url(#flameGrad1)"    opacity="0.88"/>
+    <ellipse class="flame-mid"  cx="29" cy="30" rx="6"  ry="16" fill="url(#flameMidGrad1)" opacity="0.80"/>
+    <ellipse class="flame-tip"  cx="30" cy="22" rx="4"  ry="12" fill="#ffdd44"             opacity="0.65"/>
+    <ellipse class="flame-inner"cx="30" cy="33" rx="3"  ry="8"  fill="#ffffff"             opacity="0.30"/>
+  </svg>
+</div>
+<div class="torch tr">
+  <div class="torch-glow"></div>
+  <!-- Braci di scintille — tempi leggermente diversi per varietà -->
+  <div class="ember" style="--lx:30px;--dur:1.5s;--del:0.1s;--tx:-4px;--tx2:3px;"></div>
+  <div class="ember" style="--lx:26px;--dur:1.2s;--del:0.5s;--tx:5px; --tx2:-4px;background:#ff9900;"></div>
+  <div class="ember" style="--lx:33px;--dur:1.7s;--del:0.8s;--tx:-2px;--tx2:6px; background:#fff;width:1px;height:1px;"></div>
+  <div class="ember" style="--lx:28px;--dur:1.0s;--del:0.3s;--tx:3px; --tx2:-5px;background:#ff6600;"></div>
+  <svg width="60" height="100" viewBox="0 0 60 100" style="overflow:visible;">
+    <defs>
+      <radialGradient id="flameGrad2" cx="50%" cy="80%" r="60%">
+        <stop offset="0%"   stop-color="#ffffff"/>
+        <stop offset="25%"  stop-color="#ffe066"/>
+        <stop offset="60%"  stop-color="#ff6600"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+      <radialGradient id="flameMidGrad2" cx="50%" cy="85%" r="55%">
+        <stop offset="0%"   stop-color="#fff4aa"/>
+        <stop offset="50%"  stop-color="#ffaa00"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+    </defs>
+    <!-- Manico della torcia -->
+    <rect x="25" y="55" width="10" height="40" rx="2" fill="#5a3a10"/>
+    <rect x="22" y="48" width="16" height="12" rx="2" fill="#6a4a18"/>
+    <ellipse cx="30" cy="48" rx="10" ry="6" fill="#7a5a20"/>
+    <!-- Strati della fiamma -->
+    <ellipse class="flame-core" cx="30" cy="28" rx="9"  ry="22" fill="url(#flameGrad2)"    opacity="0.88"/>
+    <ellipse class="flame-mid"  cx="31" cy="30" rx="6"  ry="16" fill="url(#flameMidGrad2)" opacity="0.80"/>
+    <ellipse class="flame-tip"  cx="30" cy="22" rx="4"  ry="12" fill="#ffdd44"             opacity="0.65"/>
+    <ellipse class="flame-inner"cx="30" cy="33" rx="3"  ry="8"  fill="#ffffff"             opacity="0.30"/>
+  </svg>
+</div>
+
+<!-- ════════════ APP PRINCIPALE ════════════ -->
+<div id="app">
+
+  <!-- ── INTESTAZIONE ── -->
+  <header id="header">
+    <!-- SVG Statua Gatto Bastet -->
+    <div id="bastet-statue-wrap">
+      <svg id="bastet-svg" width="320" height="340" viewBox="0 0 120 140">
+        <defs>
+          <radialGradient id="bodyGold" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#f0c040"/>
+            <stop offset="60%" stop-color="#c9a84c"/>
+            <stop offset="100%" stop-color="#7a5c1e"/>
+          </radialGradient>
+          <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#00ff88"/>
+            <stop offset="100%" stop-color="#006633"/>
+          </radialGradient>
+          <filter id="goldenGlow">
+            <feGaussianBlur stdDeviation="2" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+          </filter>
+        </defs>
+        <!-- Base/Piedistallo -->
+        <rect x="20" y="118" width="80" height="18" rx="3" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="1"/>
+        <text x="60" y="131" text-anchor="middle" font-size="7" fill="#1a1208" letter-spacing="1">𓃠 𓂀 𓃠</text>
+        <!-- Corpo -->
+        <path d="M 38 118 L 38 70 Q 38 55 60 50 Q 82 55 82 70 L 82 118 Z" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="1"/>
+        <!-- Dettaglio petto -->
+        <path d="M 45 80 Q 60 75 75 80 L 78 95 Q 60 98 42 95 Z" fill="#c9a84c" opacity="0.6"/>
+        <!-- Collare / Collana -->
+        <path d="M 40 72 Q 60 65 80 72" fill="none" stroke="#f0c040" stroke-width="2"/>
+        <circle cx="50" cy="70" r="3" fill="#f0c040"/>
+        <circle cx="60" cy="68" r="3.5" fill="#f0c040"/>
+        <circle cx="70" cy="70" r="3" fill="#f0c040"/>
+        <circle cx="57" cy="64" r="2.5" fill="#ff4444"/>
+        <circle cx="63" cy="64" r="2.5" fill="#ff4444"/>
+        <!-- Collo -->
+        <rect x="50" y="52" width="20" height="18" rx="8" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="0.5"/>
+        <!-- Testa -->
+        <ellipse cx="60" cy="42" rx="26" ry="24" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="1"/>
+        <!-- Orecchie da gatto -->
+        <polygon points="38,24 30,5 48,20" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="1"/>
+        <polygon points="82,24 90,5 72,20" fill="url(#bodyGold)" stroke="#7a5c1e" stroke-width="1"/>
+        <!-- Interno orecchio -->
+        <polygon points="39,22 33,9 46,20" fill="#e8902a" opacity="0.7"/>
+        <polygon points="81,22 87,9 74,20" fill="#e8902a" opacity="0.7"/>
+        <!-- Occhi -->
+        <ellipse cx="50" cy="40" rx="7" ry="5" fill="url(#eyeGlow)" id="left-eye"/>
+        <ellipse cx="70" cy="40" rx="7" ry="5" fill="url(#eyeGlow)" id="right-eye"/>
+        <!-- Pupille degli occhi -->
+        <ellipse cx="50" cy="40" rx="3" ry="4" fill="#000"/>
+        <ellipse cx="70" cy="40" rx="3" ry="4" fill="#000"/>
+        <!-- Brillio degli occhi -->
+        <circle cx="52" cy="38" r="1.5" fill="white" opacity="0.8"/>
+        <circle cx="72" cy="38" r="1.5" fill="white" opacity="0.8"/>
+        <!-- Delineatore (kohl) -->
+        <path d="M 42 40 L 50 38 L 58 40" fill="none" stroke="#1a1208" stroke-width="1.5"/>
+        <path d="M 62 40 L 70 38 L 78 40" fill="none" stroke="#1a1208" stroke-width="1.5"/>
+        <!-- Linea esterna dell'occhio che si estende -->
+        <line x1="42" y1="40" x2="38" y2="37" stroke="#1a1208" stroke-width="1.2"/>
+        <line x1="78" y1="40" x2="82" y2="37" stroke="#1a1208" stroke-width="1.2"/>
+        <!-- Naso -->
+        <path d="M 57 46 Q 60 50 63 46" fill="#e8902a" opacity="0.8"/>
+        <!-- Sorriso della bocca -->
+        <path d="M 55 52 Q 60 56 65 52" fill="none" stroke="#7a5c1e" stroke-width="1.2"/>
+        <!-- Baffi -->
+        <line x1="35" y1="48" x2="50" y2="47" stroke="#c9a84c" stroke-width="0.8" opacity="0.6"/>
+        <line x1="33" y1="52" x2="49" y2="50" stroke="#c9a84c" stroke-width="0.8" opacity="0.6"/>
+        <line x1="70" y1="47" x2="85" y2="48" stroke="#c9a84c" stroke-width="0.8" opacity="0.6"/>
+        <line x1="71" y1="50" x2="87" y2="52" stroke="#c9a84c" stroke-width="0.8" opacity="0.6"/>
+        <!-- Dettaglio copricapo -->
+        <path d="M 38 28 Q 25 20 28 10 Q 40 15 44 26" fill="#c9a84c" opacity="0.5"/>
+        <path d="M 82 28 Q 95 20 92 10 Q 80 15 76 26" fill="#c9a84c" opacity="0.5"/>
+        <!-- Scarabeo della corona -->
+        <ellipse cx="60" cy="20" rx="8" ry="5" fill="#1a5a8a" stroke="#4af" stroke-width="0.5" opacity="0.9"/>
+        <text x="60" y="23" text-anchor="middle" font-size="6" fill="#4af">𓆣</text>
+        <!-- Braccia / Portatore di Ankh -->
+        <path d="M 38 85 L 28 95 L 35 105" fill="none" stroke="#c9a84c" stroke-width="2"/>
+        <path d="M 82 85 L 92 95 L 85 105" fill="none" stroke="#c9a84c" stroke-width="2"/>
+        <!-- Ankh nella mano destra -->
+        <line x1="85" y1="105" x2="85" y2="115" stroke="#f0c040" stroke-width="2"/>
+        <line x1="80" y1="108" x2="90" y2="108" stroke="#f0c040" stroke-width="2"/>
+        <ellipse cx="85" cy="104" rx="4" ry="5" fill="none" stroke="#f0c040" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <h1 class="app-title">BastetCipher</h1>
+    <p class="app-tagline">«Custodito da Bastet, forgiato nell'entropia.»</p>
+
+    <div class="divider-runes">
+      <div class="divider-rune-line"></div>
+      <span>𓃠</span>
+      <span>𓂀</span>
+      <span>𓊹</span>
+      <div class="divider-rune-line"></div>
+    </div>
+  </header>
+
+  <!-- ── ALTARE ── -->
+  <main id="altar">
+    <!-- Fascia incisa superiore -->
+    <div class="altar-band"></div>
+
+    <!-- Riga ruota del cifrario + occhi di Bastet -->
+    <div class="altar-top-row">
+      <!-- Disco del Cifrario -->
+      <div id="cipher-wheel-wrap">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <defs>
+            <radialGradient id="diskGrad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#3d2e10"/>
+              <stop offset="100%" stop-color="#1e1808"/>
+            </radialGradient>
+          </defs>
+          <!-- Anello esterno -->
+          <circle cx="40" cy="40" r="38" fill="url(#diskGrad)" stroke="#c9a84c" stroke-width="1.5"/>
+          <!-- Tacche -->
+          <g stroke="#c9a84c" stroke-width="0.8" opacity="0.7">
+            <line x1="40" y1="4"  x2="40" y2="12" transform="rotate(0 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(30 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(60 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="12" transform="rotate(90 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(120 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(150 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="12" transform="rotate(180 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(210 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(240 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="12" transform="rotate(270 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(300 40 40)"/>
+            <line x1="40" y1="4"  x2="40" y2="10" transform="rotate(330 40 40)"/>
+          </g>
+          <!-- Anello geroglifici -->
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(0 40 40)">𓃠</text>
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(60 40 40)">𓂀</text>
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(120 40 40)">𓆣</text>
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(180 40 40)">𓇯</text>
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(240 40 40)">𓋹</text>
+          <text x="40" y="19" text-anchor="middle" font-size="8" fill="#c9a84c" transform="rotate(300 40 40)">𓊹</text>
+          <!-- Disco interno -->
+          <circle cx="40" cy="40" r="22" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+          <circle cx="40" cy="40" r="14" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.4"/>
+          <!-- Occhio centrale -->
+          <ellipse cx="40" cy="40" rx="8" ry="5" fill="none" stroke="#c9a84c" stroke-width="1"/>
+          <circle cx="40" cy="40" r="3" fill="#c9a84c"/>
+          <!-- Linee a croce -->
+          <line x1="18" y1="40" x2="62" y2="40" stroke="#c9a84c" stroke-width="0.5" opacity="0.4"/>
+          <line x1="40" y1="18" x2="40" y2="62" stroke="#c9a84c" stroke-width="0.5" opacity="0.4"/>
+        </svg>
+      </div>
+
+      <!-- Display glifo centrale -->
+      <div id="bastet-eyes-wrap">
+        <div class="bastet-section-title">Motore del Cifrario Sacro</div>
+        <div class="bastet-eyes-indicator">
+          <div class="eye-orb" id="eye-left"></div>
+          <div class="lock-status" id="lock-icon">🔒</div>
+          <div class="eye-orb" id="eye-right"></div>
+        </div>
+        <div id="rune-display" style="font-size:1.4rem;letter-spacing:0.3em;color:var(--gold-dark);margin-top:8px;min-height:28px;transition:all 0.3s;">𓃠 𓂀 𓊹 𓆣 𓇯 𓋹</div>
+      </div>
+
+      <!-- SVG Chiave Antica -->
+      <div style="flex-shrink:0;">
+        <svg width="70" height="80" viewBox="0 0 70 80">
+          <defs>
+            <linearGradient id="keyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#f0c040"/>
+              <stop offset="50%" stop-color="#c9a84c"/>
+              <stop offset="100%" stop-color="#7a5c1e"/>
+            </linearGradient>
+          </defs>
+          <!-- Asta della chiave -->
+          <rect x="30" y="30" width="6" height="46" rx="2" fill="url(#keyGold)"/>
+          <!-- Anello della chiave -->
+          <circle cx="33" cy="20" r="16" fill="none" stroke="url(#keyGold)" stroke-width="5"/>
+          <!-- Geroglifico nell'anello della chiave -->
+          <text x="33" y="25" text-anchor="middle" font-size="10" fill="#c9a84c">𓋹</text>
+          <!-- Denti della chiave -->
+          <rect x="36" y="54" width="10" height="4" rx="1" fill="url(#keyGold)"/>
+          <rect x="36" y="64" width="8"  height="4" rx="1" fill="url(#keyGold)"/>
+          <rect x="36" y="71" width="12" height="4" rx="1" fill="url(#keyGold)"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- INPUT: Frase -->
+    <div class="field-group">
+      <label class="field-label" for="input-phrase">
+        <span>𓂀</span> Frase Segreta
+      </label>
+      <input
+        type="text"
+        id="input-phrase"
+        class="stone-input"
+        placeholder="Inserisci la tua frase segreta..."
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+
+    <!-- INPUT: PIM -->
+    <div class="field-group">
+      <label class="field-label" for="input-pim">
+        <span>𓆣</span> PIM — Moltiplicatore Personale delle Iterazioni
+      </label>
+      <input
+        type="number"
+        id="input-pim"
+        class="stone-input"
+        placeholder="es. 563519"
+        min="1"
+        max="99999999999999999999999999999999"
+        value="563519"
+      />
+      <p class="pim-note">
+        Il PIM modifica il numero di iterazioni crittografiche.
+        <strong>Usare un PIM errato genererà un cifrario completamente diverso.</strong>
+        Intervallo: da 1 a 32 cifre.
+      </p>
+    </div>
+
+    <p class="error-msg" id="error-msg">⚠ Inserisci una frase segreta e un PIM valido.</p>
+
+    <!-- PULSANTE GENERA -->
+    <button id="btn-generate" onclick="generateCipher()">
+      <div class="btn-shimmer"></div>
+      <span class="btn-runes">𓃠 𓂀</span>
+      Genera Cifrario
+      <span class="btn-runes">𓊹 𓃠</span>
+    </button>
+
+    <!-- BARRA DI AVANZAMENTO -->
+    <div id="status-bar">
+      <div id="progress-fill"></div>
+      <div id="status-text">Invocando Bastet...</div>
+    </div>
+
+    <!-- SEZIONE OUTPUT -->
+    <div id="output-section">
+      <div class="output-label">
+        <label class="field-label" style="margin-bottom:0;">
+          <span>𓊹</span> Tavoletta del Cifrario Sacro
+        </label>
+        <button id="btn-copy" onclick="copyCipher()">Copia negli Appunti 𓂀</button>
+      </div>
+
+      <div id="output-panel" style="position:relative;">
+        <div id="swirl-overlay"></div>
+        <pre id="output-text" class="cipher-cursor"></pre>
+      </div>
+
+      <div class="cipher-stats" id="cipher-stats"></div>
+    </div>
+
+    <!-- Fascia incisa inferiore -->
+    <div class="altar-band bottom"></div>
+  </main>
+
+  <!-- ── PIÈ DI PAGINA ── -->
+  <footer id="footer">
+    <div class="hieroglyph-row">𓃠 𓂀 𓆣 𓇯 𓋹 𓊹 𓁹 𓃠 𓂀 𓆣</div>
+    <div>BastetCipher · Camera di Crittografia Sacra · PBKDF2-HMAC-SHA512</div>
+    <div style="margin-top:4px;opacity:0.5;">Tutti i calcoli vengono eseguiti localmente · Nessun dato trasmesso</div>
+  </footer>
+
+<div id="MILU"><svg id="ghirighiri" viewBox="0 0 800 900" width="256px" height="256px">
+<defs>
+  <!-- Gradiente alone solare -->
+  <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffe566" stop-opacity="0.98"/>
+    <stop offset="30%" stop-color="#ffb833" stop-opacity="0.8"/>
+    <stop offset="60%" stop-color="#c97a10" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#3a1800" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="haloGlowInner" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fff5a0" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#ffb833" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Gradienti dorati -->
+  <linearGradient id="goldCollar" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#fff0a0"/>
+    <stop offset="25%" stop-color="#ffcc33"/>
+    <stop offset="55%" stop-color="#c89020"/>
+    <stop offset="100%" stop-color="#7a5200"/>
+  </linearGradient>
+  <linearGradient id="goldCollarSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7a5200" stop-opacity="0.5"/>
+    <stop offset="30%" stop-color="#ffe080" stop-opacity="0.9"/>
+    <stop offset="60%" stop-color="#c89020" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#7a5200" stop-opacity="0.5"/>
+  </linearGradient>
+  <linearGradient id="goldPendant" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffe566"/>
+    <stop offset="50%" stop-color="#c89020"/>
+    <stop offset="100%" stop-color="#7a5200"/>
+  </linearGradient>
+  <!-- Gradienti degli occhi -->
+  <radialGradient id="eyeIris" cx="38%" cy="32%" r="65%">
+    <stop offset="0%" stop-color="#f0e860"/>
+    <stop offset="30%" stop-color="#c8a818"/>
+    <stop offset="65%" stop-color="#6e7a0a"/>
+    <stop offset="90%" stop-color="#2a3005"/>
+    <stop offset="100%" stop-color="#1a2004"/>
+  </radialGradient>
+  <radialGradient id="eyeIris2" cx="38%" cy="32%" r="65%">
+    <stop offset="0%" stop-color="#e8e050"/>
+    <stop offset="30%" stop-color="#bc9c12"/>
+    <stop offset="65%" stop-color="#657008"/>
+    <stop offset="90%" stop-color="#252b04"/>
+    <stop offset="100%" stop-color="#161e03"/>
+  </radialGradient>
+  <!-- Gradienti del pelo -->
+  <radialGradient id="headBase" cx="50%" cy="45%" r="55%">
+    <stop offset="0%" stop-color="#2e1508"/>
+    <stop offset="55%" stop-color="#1c0c04"/>
+    <stop offset="100%" stop-color="#0e0602"/>
+  </radialGradient>
+  <radialGradient id="bodyBase" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#281205"/>
+    <stop offset="60%" stop-color="#180a03"/>
+    <stop offset="100%" stop-color="#0c0502"/>
+  </radialGradient>
+  <radialGradient id="chestPatch" cx="50%" cy="35%" r="55%">
+    <stop offset="0%" stop-color="#9a4810"/>
+    <stop offset="50%" stop-color="#6a2e08"/>
+    <stop offset="100%" stop-color="#3a1604" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Gradiente pelo arancione -->
+  <radialGradient id="orangePatch1" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#e08030"/>
+    <stop offset="55%" stop-color="#b05518"/>
+    <stop offset="100%" stop-color="#7a3008" stop-opacity="0.6"/>
+  </radialGradient>
+  <radialGradient id="orangePatch2" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#d07020"/>
+    <stop offset="55%" stop-color="#a04510"/>
+    <stop offset="100%" stop-color="#6a2806" stop-opacity="0.6"/>
+  </radialGradient>
+  <linearGradient id="blazeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#e88030"/>
+    <stop offset="45%" stop-color="#c06020"/>
+    <stop offset="100%" stop-color="#8a3a10"/>
+  </linearGradient>
+  <!-- Gradienti zampe -->
+  <radialGradient id="pawBase" cx="50%" cy="30%" r="65%">
+    <stop offset="0%" stop-color="#2a1408"/>
+    <stop offset="60%" stop-color="#1c0c04"/>
+    <stop offset="100%" stop-color="#120804"/>
+  </radialGradient>
+  <radialGradient id="pawPad" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#6a2820"/>
+    <stop offset="60%" stop-color="#4a1810"/>
+    <stop offset="100%" stop-color="#2e0e08"/>
+  </radialGradient>
+  <radialGradient id="toePad" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#7a3028"/>
+    <stop offset="60%" stop-color="#561a10"/>
+    <stop offset="100%" stop-color="#3a100a"/>
+  </radialGradient>
+  <!-- Gradienti gemme -->
+  <radialGradient id="gemTurq" cx="32%" cy="28%" r="65%">
+    <stop offset="0%" stop-color="#b8f0e8"/>
+    <stop offset="40%" stop-color="#22baa8"/>
+    <stop offset="80%" stop-color="#047868"/>
+    <stop offset="100%" stop-color="#023830"/>
+  </radialGradient>
+  <radialGradient id="gemLapis" cx="32%" cy="28%" r="65%">
+    <stop offset="0%" stop-color="#a0b8ff"/>
+    <stop offset="40%" stop-color="#2255d8"/>
+    <stop offset="80%" stop-color="#0a2888"/>
+    <stop offset="100%" stop-color="#051448"/>
+  </radialGradient>
+  <radialGradient id="gemRuby" cx="32%" cy="28%" r="65%">
+    <stop offset="0%" stop-color="#ff9898"/>
+    <stop offset="40%" stop-color="#d02828"/>
+    <stop offset="80%" stop-color="#7a0a0a"/>
+    <stop offset="100%" stop-color="#480505"/>
+  </radialGradient>
+  <!-- Interno orecchio -->
+  <radialGradient id="earInner" cx="50%" cy="60%" r="55%">
+    <stop offset="0%" stop-color="#7a2820"/>
+    <stop offset="50%" stop-color="#4a1410"/>
+    <stop offset="100%" stop-color="#1e0808"/>
+  </radialGradient>
+  <!-- Naso -->
+  <radialGradient id="noseGrad" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#d04860"/>
+    <stop offset="55%" stop-color="#982038"/>
+    <stop offset="100%" stop-color="#5a0818"/>
+  </radialGradient>
+  <!-- Gradiente coda -->
+  <linearGradient id="tailGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#200e04"/>
+    <stop offset="40%" stop-color="#2e1508"/>
+    <stop offset="70%" stop-color="#1a0a04"/>
+    <stop offset="100%" stop-color="#0e0602"/>
+  </linearGradient>
+</defs>
+
+<!-- ============================
+     DISCO SOLARE (dietro la testa)
+     ============================ -->
+<!-- Alone morbido esterno -->
+<circle cx="400" cy="280" r="210" fill="url(#haloGlow)" opacity="0.7">
+  <animate attributeName="r" values="200;218;200" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <animate attributeName="opacity" values="0.65;0.82;0.65" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+</circle>
+<!-- Nucleo interno luminoso -->
+<circle cx="400" cy="280" r="140" fill="url(#haloGlowInner)" opacity="0.5">
+  <animate attributeName="opacity" values="0.45;0.62;0.45" dur="4s" repeatCount="indefinite"/>
+</circle>
+<!-- Raggi solari decorativi -->
+<g stroke="#ffcc33" stroke-linecap="round" opacity="0.6">
+  <line x1="400" y1="60" x2="400" y2="44" stroke-width="2.5"/>
+  <line x1="453" y1="70" x2="463" y2="55" stroke-width="2"/>
+  <line x1="499" y1="98" x2="513" y2="86" stroke-width="2"/>
+  <line x1="531" y1="140" x2="548" y2="132" stroke-width="2"/>
+  <line x1="545" y1="192" x2="563" y2="189" stroke-width="1.5"/>
+  <line x1="540" y1="245" x2="558" y2="246" stroke-width="1.5"/>
+  <line x1="347" y1="70" x2="337" y2="55" stroke-width="2"/>
+  <line x1="301" y1="98" x2="287" y2="86" stroke-width="2"/>
+  <line x1="269" y1="140" x2="252" y2="132" stroke-width="2"/>
+  <line x1="255" y1="192" x2="237" y2="189" stroke-width="1.5"/>
+  <line x1="260" y1="245" x2="242" y2="246" stroke-width="1.5"/>
+</g>
+<!-- Anello esterno disco solare -->
+<circle cx="400" cy="280" r="175" fill="none" stroke="#ffcc33" stroke-width="5" opacity="0.9"/>
+<circle cx="400" cy="280" r="167" fill="none" stroke="#ffe680" stroke-width="1.5" opacity="0.55"/>
+<circle cx="400" cy="280" r="182" fill="none" stroke="#b8860b" stroke-width="1.5" opacity="0.45"/>
+<!-- Ankh decorativo -->
+<g fill="none" stroke="#e8c028" stroke-width="2.5" opacity="0.8">
+  <ellipse cx="400" cy="100" rx="14" ry="10"/>
+  <line x1="400" y1="110" x2="400" y2="140"/>
+  <line x1="386" y1="122" x2="414" y2="122"/>
+</g>
+
+<!-- ============================
+     CODA (dietro il corpo)
+     ============================ -->
+<g>
+  <!-- Forma principale della coda -->
+  <path d="M540 780 Q630 730 670 650 Q695 595 670 550 Q650 518 618 520 Q588 522 572 558 Q558 590 565 640 Q572 690 545 750 Z" fill="#1e0e06"/>
+  <!-- Strati pelo coda -->
+  <path d="M545 768 Q628 722 662 648 Q684 597 662 556 Q645 527 618 530 Q593 532 580 562 Q566 592 572 640 Q578 686 552 746 Z" fill="#180a04"/>
+  <path d="M552 755 Q625 712 655 645 Q675 598 655 560 Q640 534 620 537 Q600 540 590 566 Q578 594 582 638 Q588 680 558 740 Z" fill="#241005" opacity="0.7"/>
+  <!-- Macchie arancioni sulla coda -->
+  <path d="M638 588 Q658 568 664 550 Q652 530 634 540 Q620 552 622 572 Q624 588 638 588Z" fill="#a04818" opacity="0.8"/>
+  <path d="M618 640 Q640 624 648 604 Q640 590 626 596 Q614 608 614 624 Q614 636 618 640Z" fill="#8a3e12" opacity="0.65"/>
+  <!-- Dettaglio fili pelo coda -->
+  <path d="M560 740 Q575 710 580 680 Q578 660 572 650" fill="none" stroke="#2a1208" stroke-width="2" opacity="0.6"/>
+  <path d="M572 744 Q588 714 593 682 Q591 660 584 648" fill="none" stroke="#2a1208" stroke-width="1.5" opacity="0.5"/>
+  <!-- Area più chiara della punta della coda -->
+  <ellipse cx="548" cy="758" rx="18" ry="22" fill="#2e1408" opacity="0.6"/>
+  <!-- Animazione oscillazione coda -->
+  <animateTransform attributeName="transform" type="rotate" values="0 490 780; 6 490 780; -5 490 780; 2 490 780; 0 490 780" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+</g>
+
+<!-- ============================
+     CORPO
+     ============================ -->
+<!-- Base del corpo -->
+<path d="M222 660 Q228 560 262 528 Q285 510 310 514 Q330 518 352 548 Q368 572 400 578 Q432 572 448 548 Q470 518 490 514 Q515 510 538 528 Q572 560 578 660 Q565 770 400 790 Q235 770 222 660Z" fill="url(#bodyBase)"/>
+<!-- Macchie pelo scuro sul corpo -->
+<path d="M242 620 Q252 582 270 568 Q290 558 310 568 Q328 580 322 600 Q310 618 288 615 Q262 610 242 620Z" fill="#120804"/>
+<path d="M558 620 Q548 582 530 568 Q510 558 490 568 Q472 580 478 600 Q490 618 512 615 Q538 610 558 620Z" fill="#120804"/>
+<path d="M270 680 Q280 650 298 644 Q318 640 332 654 Q340 666 334 680 Q320 694 298 690 Z" fill="#140806"/>
+<path d="M530 680 Q520 650 502 644 Q482 640 468 654 Q460 666 466 680 Q480 694 502 690 Z" fill="#140806"/>
+<path d="M348 660 Q354 636 372 630 Q390 626 408 632 Q422 642 420 658 Q412 674 395 676 Q374 674 360 666 Z" fill="#1a0c06" opacity="0.8"/>
+<!-- Macchie arancioni sul corpo -->
+<path d="M264 570 Q278 554 298 558 Q314 566 312 582 Q306 596 288 594 Q268 588 264 570Z" fill="#b85020" opacity="0.82"/>
+<path d="M468 570 Q482 554 500 560 Q514 568 512 584 Q504 596 488 594 Q468 588 468 570Z" fill="#aa4818" opacity="0.78"/>
+<path d="M280 632 Q290 616 308 614 Q322 616 326 628 Q324 642 310 646 Q292 644 280 632Z" fill="#984010" opacity="0.7"/>
+<path d="M472 632 Q482 616 500 614 Q514 616 518 628 Q516 642 502 646 Q484 644 472 632Z" fill="#a04515" opacity="0.7"/>
+<path d="M355 706 Q365 692 382 692 Q396 694 400 706 Q397 718 382 718 Q366 716 355 706Z" fill="#8a3808" opacity="0.65"/>
+<path d="M445 706 Q435 692 418 692 Q404 694 400 706 Q403 718 418 718 Q434 716 445 706Z" fill="#944010" opacity="0.65"/>
+<!-- Area petto calda luminosa -->
+<ellipse cx="400" cy="600" rx="72" ry="60" fill="url(#chestPatch)" opacity="0.65"/>
+<!-- Macchia centrale pelo petto -->
+<path d="M362 572 Q376 558 400 556 Q424 558 438 572 Q448 586 444 604 Q430 622 400 626 Q370 622 356 604 Q352 586 362 572Z" fill="#6a2e0a" opacity="0.68"/>
+<!-- Linee texture pelo petto -->
+<path d="M378 570 Q385 558 393 560 Q398 565 394 576" fill="none" stroke="#3a1808" stroke-width="1" opacity="0.5"/>
+<path d="M420 572 Q412 560 404 562 Q399 567 402 578" fill="none" stroke="#3a1808" stroke-width="1" opacity="0.5"/>
+<!-- Animazione respiro petto -->
+<ellipse cx="400" cy="610" rx="85" ry="52" fill="#2e1408" opacity="0.2">
+  <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.06;1,1" dur="5.5s" repeatCount="indefinite" additive="sum" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+</ellipse>
+<!-- Fili texture pelo corpo -->
+<g fill="none" stroke="#2a1206" stroke-width="1" opacity="0.45">
+  <path d="M258 558 Q265 548 275 550"/>
+  <path d="M275 545 Q283 534 293 537"/>
+  <path d="M520 558 Q514 548 504 550"/>
+  <path d="M506 545 Q498 534 488 537"/>
+  <path d="M310 520 Q315 510 325 512"/>
+  <path d="M475 520 Q470 510 460 512"/>
+</g>
+
+<!-- ============================
+     ZAMPE ANTERIORI E ZAMPINE
+     ============================ -->
+<!-- Zampa sinistra -->
+<path d="M290 680 Q275 690 270 720 Q268 748 272 775 Q278 800 305 808 Q332 812 348 800 Q362 788 360 762 Q358 738 348 718 Q338 700 320 688 Z" fill="#1c0e06"/>
+<!-- Dettaglio pelo zampa sinistra -->
+<path d="M295 684 Q282 694 277 722 Q274 750 278 776 Q284 798 308 805 Q330 808 344 797 Q356 785 355 762 Q353 740 344 721 Q335 703 318 692 Z" fill="#180a04"/>
+<!-- Macchie arancioni pelo zampa sinistra -->
+<path d="M310 695 Q322 688 334 692 Q342 698 338 710 Q330 720 318 718 Q305 714 304 704 Q303 698 310 695Z" fill="#9a4015" opacity="0.75"/>
+<path d="M280 738 Q288 726 300 728 Q310 732 308 744 Q302 754 290 752 Q278 748 278 740 Z" fill="#883810" opacity="0.65"/>
+
+<!-- Zampina sinistra -->
+<path d="M272 780 Q268 802 278 818 Q290 832 316 836 Q340 836 354 822 Q364 808 360 786 Q352 770 338 768 Q320 766 302 770 Z" fill="url(#pawBase)"/>
+<!-- Macchia arancione zampina sinistra -->
+<path d="M284 778 Q296 770 312 772 Q326 776 326 788 Q322 800 308 802 Q292 800 283 790 Z" fill="#8a3810" opacity="0.72"/>
+<!-- Lato inferiore più scuro zampina sinistra -->
+<path d="M274 800 Q272 814 280 822 Q292 832 316 834 Q338 832 351 820 Q361 808 358 796" fill="none" stroke="#140806" stroke-width="3" opacity="0.6"/>
+<!-- Cuscinetto principale zampina sinistra -->
+<path d="M288 808 Q296 800 312 800 Q328 800 334 808 Q338 818 330 826 Q318 832 302 830 Q288 826 284 816 Q282 810 288 808Z" fill="url(#pawPad)"/>
+<!-- Cuscinetti dita zampina sinistra (4 dita) -->
+<ellipse cx="288" cy="798" rx="8" ry="7" fill="url(#toePad)"/>
+<ellipse cx="304" cy="790" rx="8.5" ry="7" fill="url(#toePad)"/>
+<ellipse cx="322" cy="790" rx="8.5" ry="7" fill="url(#toePad)"/>
+<ellipse cx="338" cy="798" rx="8" ry="7" fill="url(#toePad)"/>
+<!-- Brillio dita -->
+<ellipse cx="286" cy="795" rx="3" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="302" cy="787" rx="3.5" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="320" cy="787" rx="3.5" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="336" cy="795" rx="3" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<!-- Linee separazione dita -->
+<path d="M296 808 Q298 796 300 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<path d="M312 808 Q313 794 314 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<path d="M328 808 Q326 796 324 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<!-- Linee artigli zampina sinistra -->
+<g stroke="#2a1408" stroke-width="0.8" fill="none" opacity="0.7">
+  <path d="M284 798 Q280 790 278 784"/>
+  <path d="M300 790 Q298 781 297 776"/>
+  <path d="M318 790 Q318 780 318 775"/>
+  <path d="M334 798 Q338 788 340 783"/>
+</g>
+<!-- Fili pelo zampina sinistra -->
+<g fill="none" stroke="#2a1008" stroke-width="0.8" opacity="0.5">
+  <path d="M276 785 Q280 778 286 776"/>
+  <path d="M295 774 Q300 770 307 770"/>
+  <path d="M316 770 Q322 768 328 770"/>
+  <path d="M336 774 Q343 778 347 783"/>
+</g>
+
+<!-- Zampa destra -->
+<path d="M510 680 Q525 690 530 720 Q532 748 528 775 Q522 800 495 808 Q468 812 452 800 Q438 788 440 762 Q442 738 452 718 Q462 700 480 688 Z" fill="#1c0e06"/>
+<!-- Dettaglio pelo zampa destra -->
+<path d="M505 684 Q518 694 523 722 Q526 750 522 776 Q516 798 492 805 Q470 808 456 797 Q444 785 445 762 Q447 740 456 721 Q465 703 482 692 Z" fill="#180a04"/>
+<!-- Macchie arancioni zampa destra -->
+<path d="M490 695 Q478 688 466 692 Q458 698 462 710 Q470 720 482 718 Q495 714 496 704 Q497 698 490 695Z" fill="#9a4015" opacity="0.75"/>
+<path d="M520 738 Q512 726 500 728 Q490 732 492 744 Q498 754 510 752 Q522 748 522 740Z" fill="#883810" opacity="0.65"/>
+
+<!-- Zampina destra -->
+<path d="M528 780 Q532 802 522 818 Q510 832 484 836 Q460 836 446 822 Q436 808 440 786 Q448 770 462 768 Q480 766 498 770 Z" fill="url(#pawBase)"/>
+<!-- Macchia arancione zampina destra -->
+<path d="M516 778 Q504 770 488 772 Q474 776 474 788 Q478 800 492 802 Q508 800 517 790Z" fill="#8a3810" opacity="0.72"/>
+<!-- Cuscinetto principale zampina destra -->
+<path d="M512 808 Q504 800 488 800 Q472 800 466 808 Q462 818 470 826 Q482 832 498 830 Q512 826 516 816 Q518 810 512 808Z" fill="url(#pawPad)"/>
+<!-- Cuscinetti dita zampina destra (4 dita) -->
+<ellipse cx="512" cy="798" rx="8" ry="7" fill="url(#toePad)"/>
+<ellipse cx="496" cy="790" rx="8.5" ry="7" fill="url(#toePad)"/>
+<ellipse cx="478" cy="790" rx="8.5" ry="7" fill="url(#toePad)"/>
+<ellipse cx="462" cy="798" rx="8" ry="7" fill="url(#toePad)"/>
+<!-- Brillio dita zampina destra -->
+<ellipse cx="514" cy="795" rx="3" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="498" cy="787" rx="3.5" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="480" cy="787" rx="3.5" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<ellipse cx="464" cy="795" rx="3" ry="2.5" fill="#9a3828" opacity="0.5"/>
+<!-- Linee separazione dita destra -->
+<path d="M504 808 Q502 796 500 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<path d="M488 808 Q487 794 486 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<path d="M472 808 Q474 796 476 790" fill="none" stroke="#0e0604" stroke-width="1.2"/>
+<!-- Linee artigli zampina destra -->
+<g stroke="#2a1408" stroke-width="0.8" fill="none" opacity="0.7">
+  <path d="M516 798 Q520 790 522 784"/>
+  <path d="M500 790 Q502 781 503 776"/>
+  <path d="M482 790 Q482 780 482 775"/>
+  <path d="M466 798 Q462 788 460 783"/>
+</g>
+<!-- Fili pelo zampina destra -->
+<g fill="none" stroke="#2a1008" stroke-width="0.8" opacity="0.5">
+  <path d="M524 785 Q520 778 514 776"/>
+  <path d="M505 774 Q500 770 493 770"/>
+  <path d="M484 770 Q478 768 472 770"/>
+  <path d="M463 774 Q457 778 453 783"/>
+</g>
+
+<!-- ============================
+     COLLO
+     ============================ -->
+<path d="M336 508 Q350 488 400 484 Q450 488 464 508 Q460 535 452 548 Q428 562 400 564 Q372 562 348 548 Q340 535 336 508Z" fill="#1e0c05"/>
+<!-- Macchie pelo collo -->
+<path d="M338 514 Q348 498 360 500 Q368 506 365 520 Q358 530 344 525 Z" fill="#8a3a10" opacity="0.6"/>
+<path d="M462 514 Q452 498 440 500 Q432 506 435 520 Q442 530 456 525 Z" fill="#8a3a10" opacity="0.6"/>
+<path d="M346 536 Q358 522 376 525 Q384 533 378 545 Q366 552 352 546 Z" fill="#1a0a04" opacity="0.7"/>
+<path d="M454 536 Q442 522 424 525 Q416 533 422 545 Q434 552 448 546 Z" fill="#1a0a04" opacity="0.7"/>
+
+<!-- ============================
+     BASE DELLA TESTA
+     ============================ -->
+<ellipse cx="400" cy="360" rx="155" ry="140" fill="url(#headBase)"/>
+
+<!-- ============================
+     ORECCHIE
+     ============================ -->
+<!-- Orecchio sinistro - guscio esterno -->
+<path d="M274 298 Q250 215 270 162 Q280 143 296 152 Q312 164 320 212 Q330 258 325 296 Z" fill="#1c0a05"/>
+<!-- Interno orecchio sinistro -->
+<path d="M283 290 Q264 220 280 176 Q287 161 298 166 Q310 174 315 218 Q322 256 318 288 Z" fill="url(#earInner)"/>
+<!-- Sottolineatura sottile orecchio sinistro -->
+<path d="M287 282 Q270 222 283 183 Q289 170 298 174 Q306 182 309 220 Q314 254 310 280 Z" fill="#6a2020" opacity="0.6"/>
+<!-- Macchia pelo arancione orecchio sinistro -->
+<path d="M280 286 Q270 248 277 215 Q282 198 292 200 Q300 206 298 228 Q297 252 290 276 Z" fill="#b85520" opacity="0.7"/>
+<!-- Dettaglio linee pelo orecchio sinistro -->
+<g fill="none" stroke="#2a0c06" stroke-width="0.8" opacity="0.5">
+  <path d="M278 278 Q272 255 275 232"/>
+  <path d="M284 284 Q277 260 279 236"/>
+  <path d="M291 288 Q284 263 285 238"/>
+</g>
+
+<!-- Orecchio destro - guscio esterno -->
+<path d="M526 298 Q550 215 530 162 Q520 143 504 152 Q488 164 480 212 Q470 258 475 296 Z" fill="#1c0a05"/>
+<!-- Interno orecchio destro -->
+<path d="M517 290 Q536 220 520 176 Q513 161 502 166 Q490 174 485 218 Q478 256 482 288 Z" fill="url(#earInner)"/>
+<!-- Sottolineatura orecchio destro -->
+<path d="M513 282 Q530 222 517 183 Q511 170 502 174 Q494 182 491 220 Q486 254 490 280 Z" fill="#6a2020" opacity="0.6"/>
+<!-- Pelo arancione orecchio destro -->
+<path d="M520 286 Q530 248 523 215 Q518 198 508 200 Q500 206 502 228 Q503 252 510 276 Z" fill="#b85520" opacity="0.7"/>
+<!-- Linee pelo orecchio destro -->
+<g fill="none" stroke="#2a0c06" stroke-width="0.8" opacity="0.5">
+  <path d="M522 278 Q528 255 525 232"/>
+  <path d="M516 284 Q523 260 521 236"/>
+  <path d="M509 288 Q516 263 515 238"/>
+</g>
+
+<!-- ============================
+     DETTAGLIO PELO TESTA
+     ============================ -->
+<!-- Base scura cima della testa -->
+<path d="M300 280 Q315 252 342 240 Q370 230 400 232 Q430 230 458 240 Q485 252 500 280 Q485 264 464 258 Q445 253 424 258 Q413 264 400 267 Q387 264 376 258 Q355 253 336 258 Q315 264 300 280Z" fill="#160a04"/>
+
+<!-- Macchie arancioni - grande fronte destra -->
+<path d="M435 248 Q455 238 470 246 Q481 256 477 272 Q468 285 452 283 Q435 279 432 264 Q430 254 435 248Z" fill="#d06828" opacity="0.88"/>
+<!-- Macchia arancione fronte sinistra -->
+<path d="M338 254 Q352 242 368 248 Q378 258 372 273 Q364 284 348 280 Q334 274 333 262 Q332 256 338 254Z" fill="#c05e20" opacity="0.78"/>
+<!-- Macchia arancione corona superiore -->
+<path d="M388 232 Q397 222 412 226 Q420 232 418 245 Q412 253 400 254 Q388 253 383 245 Q381 236 388 232Z" fill="#c86820" opacity="0.8"/>
+<!-- Grande macchia arancione guancia destra -->
+<path d="M460 316 Q478 308 498 314 Q514 324 514 342 Q512 358 498 366 Q482 372 468 362 Q456 352 456 338 Q455 325 460 316Z" fill="#a84820" opacity="0.8"/>
+<!-- Guancia sinistra scura -->
+<path d="M262 340 Q266 318 282 308 Q298 300 315 312 Q327 322 323 340 Q316 356 298 360 Q276 356 262 340Z" fill="#180c04"/>
+<!-- Altre macchie arancioni irregolari sparse -->
+<path d="M350 292 Q362 280 378 284 Q388 292 384 304 Q376 314 362 312 Q350 306 350 296 Z" fill="#ba5820" opacity="0.72"/>
+<path d="M422 295 Q432 282 448 287 Q458 296 454 308 Q446 318 432 315 Q420 308 420 300 Z" fill="#c86020" opacity="0.75"/>
+<!-- Macchie scure parte inferiore del volto -->
+<path d="M288 360 Q298 345 318 345 Q330 350 326 365 Q318 376 302 374 Q286 368 288 360Z" fill="#140806" opacity="0.8"/>
+<path d="M480 355 Q494 344 510 347 Q521 354 517 368 Q508 378 494 376 Q478 368 478 358 Z" fill="#140806" opacity="0.8"/>
+<!-- Arancione lato del volto -->
+<path d="M478 305 Q490 295 505 300 Q514 308 510 320 Q502 330 490 328 Q478 322 476 313 Z" fill="#904015" opacity="0.68"/>
+
+<!-- ============================
+     FIAMMA CENTRALE ARANCIONE DEL VOLTO
+     ============================ -->
+<path d="M393 228 Q400 218 407 224 Q415 236 414 256 Q412 276 408 296 Q405 312 400 320 Q395 312 392 296 Q388 276 386 256 Q385 236 393 228 Z" fill="url(#blazeGrad)" opacity="0.9"/>
+<!-- Estensione inferiore fiamma -->
+<path d="M393 318 Q397 330 400 334 Q403 330 407 318 Q406 308 400 312 Q394 308 393 318Z" fill="#b05018" opacity="0.65"/>
+
+<!-- Arcate sopraccigliari scure -->
+<path d="M315 305 Q326 292 344 296 Q354 304 348 316 Q338 324 323 320 Z" fill="#120806" opacity="0.9"/>
+<path d="M485 305 Q474 292 456 296 Q446 304 452 316 Q462 324 477 320 Z" fill="#120806" opacity="0.9"/>
+
+<!-- ============================
+     MUSO
+     ============================ -->
+<path d="M350 388 Q360 365 385 358 Q400 354 415 358 Q440 365 450 388 Q456 406 450 422 Q436 440 400 444 Q364 440 350 422 Q344 406 350 388Z" fill="#281006"/>
+<!-- Area muso leggermente rialzata più chiara -->
+<path d="M356 392 Q365 372 386 365 Q400 361 414 365 Q435 372 444 392 Q449 408 443 420 Q430 436 400 440 Q370 436 357 420 Q352 408 356 392Z" fill="#381808" opacity="0.85"/>
+<!-- Cuscinetto baffi sinistro -->
+<ellipse cx="373" cy="414" rx="20" ry="16" fill="#2a1006" opacity="0.75"/>
+<!-- Cuscinetto baffi destro -->
+<ellipse cx="427" cy="414" rx="20" ry="16" fill="#2a1006" opacity="0.75"/>
+<!-- Punti cuscinetto baffi -->
+<circle cx="368" cy="410" r="2" fill="#1a0a04" opacity="0.6"/>
+<circle cx="374" cy="418" r="2" fill="#1a0a04" opacity="0.6"/>
+<circle cx="380" cy="406" r="1.5" fill="#1a0a04" opacity="0.6"/>
+<circle cx="432" cy="410" r="2" fill="#1a0a04" opacity="0.6"/>
+<circle cx="426" cy="418" r="2" fill="#1a0a04" opacity="0.6"/>
+<circle cx="420" cy="406" r="1.5" fill="#1a0a04" opacity="0.6"/>
+<!-- Solco filtro -->
+<line x1="400" y1="394" x2="400" y2="408" stroke="#1a0808" stroke-width="2"/>
+
+<!-- ============================
+     NASO
+     ============================ -->
+<path d="M388 377 Q400 368 412 377 Q418 385 412 393 Q400 399 388 393 Q382 385 388 377Z" fill="url(#noseGrad)"/>
+<!-- Brillio naso -->
+<ellipse cx="394" cy="381" rx="5" ry="3.5" fill="#e05870" opacity="0.4"/>
+<!-- Ponte punta naso -->
+<path d="M388 377 Q394 374 400 374 Q406 374 412 377" fill="none" stroke="#6a1020" stroke-width="1"/>
+
+<!-- Linea bocca -->
+<path d="M385 408 Q392 416 400 418 Q408 416 415 408" fill="none" stroke="#2e0e0a" stroke-width="1.8" stroke-linecap="round"/>
+<!-- Area mento -->
+<path d="M375 420 Q388 435 400 438 Q412 435 425 420 Q418 445 400 448 Q382 445 375 420Z" fill="#200e06" opacity="0.6"/>
+
+<!-- ============================
+     OCCHI
+     ============================ -->
+<!-- Ombra scura dell'orbita oculare -->
+<ellipse cx="348" cy="348" rx="42" ry="33" fill="#0c0604" opacity="0.95"/>
+<ellipse cx="452" cy="348" rx="42" ry="33" fill="#0c0604" opacity="0.95"/>
+<!-- Area sclera -->
+<ellipse cx="348" cy="348" rx="35" ry="27" fill="#1c1006"/>
+<ellipse cx="452" cy="348" rx="35" ry="27" fill="#1c1006"/>
+<!-- Iride sinistra -->
+<ellipse cx="348" cy="348" rx="28" ry="24" fill="url(#eyeIris)"/>
+<!-- Iride destra -->
+<ellipse cx="452" cy="348" rx="28" ry="24" fill="url(#eyeIris2)"/>
+<!-- Anelli iride per profondità -->
+<ellipse cx="348" cy="348" rx="28" ry="24" fill="none" stroke="#90780c" stroke-width="1.2" opacity="0.6"/>
+<ellipse cx="348" cy="348" rx="22" ry="19" fill="none" stroke="#606810" stroke-width="0.8" opacity="0.5"/>
+<ellipse cx="452" cy="348" rx="28" ry="24" fill="none" stroke="#90780c" stroke-width="1.2" opacity="0.6"/>
+<ellipse cx="452" cy="348" rx="22" ry="19" fill="none" stroke="#606810" stroke-width="0.8" opacity="0.5"/>
+<!-- Pupilla sinistra -->
+<ellipse id="lpupil" cx="348" cy="348" rx="9" ry="20" fill="#060404"/>
+<!-- Pupilla destra -->
+<ellipse id="rpupil" cx="452" cy="348" rx="9" ry="20" fill="#060404"/>
+<!-- Dettaglio bordo pupilla -->
+<ellipse cx="348" cy="348" rx="9" ry="20" fill="none" stroke="#1a1010" stroke-width="0.5"/>
+<ellipse cx="452" cy="348" rx="9" ry="20" fill="none" stroke="#1a1010" stroke-width="0.5"/>
+<!-- Riflesso primario dell'occhio -->
+<ellipse cx="338" cy="338" rx="6" ry="5" fill="#fffae8" opacity="0.82"/>
+<ellipse cx="442" cy="338" rx="6" ry="5" fill="#fffae8" opacity="0.82"/>
+<!-- Piccolo riflesso secondario dell'occhio -->
+<circle cx="355" cy="355" r="2.5" fill="#fff5cc" opacity="0.38"/>
+<circle cx="459" cy="355" r="2.5" fill="#fff5cc" opacity="0.38"/>
+<!-- Terzo piccolo speculare -->
+<circle cx="342" cy="342" r="1.5" fill="#ffffff" opacity="0.25"/>
+<circle cx="446" cy="342" r="1.5" fill="#ffffff" opacity="0.25"/>
+
+<!-- Delineatore egizio kohl superiore -->
+<path d="M317 338 Q348 328 379 338 Q383 346 379 356 Q348 366 317 356 Q311 346 317 338Z" fill="none" stroke="#060402" stroke-width="2.5"/>
+<path d="M421 338 Q452 328 483 338 Q487 346 483 356 Q452 366 421 356 Q415 346 421 338Z" fill="none" stroke="#060402" stroke-width="2.5"/>
+<!-- Tratti alari kohl occhio sinistro -->
+<path d="M317 338 Q304 330 293 325" fill="none" stroke="#060402" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M317 356 Q306 363 298 370" fill="none" stroke="#060402" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Tratti alari kohl occhio destro -->
+<path d="M483 338 Q496 330 507 325" fill="none" stroke="#060402" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M483 356 Q494 363 502 370" fill="none" stroke="#060402" stroke-width="1.5" stroke-linecap="round"/>
+
+<!-- ============================
+     ANIMAZIONE AMMICCAMENTO
+     ============================ -->
+<!-- Palpebra superiore sinistra -->
+<path id="lblink" d="M316 348 Q348 330 380 348 Q348 388 316 348Z" fill="#1e0e06" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;1;0;0" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="d"
+    values="M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 336 380 348 Q348 366 316 348Z;M316 348 Q348 348 380 348 Q348 348 316 348Z;M316 348 Q348 348 380 348 Q348 348 316 348Z;M316 348 Q348 348 380 348 Q348 348 316 348Z;M316 348 Q348 336 380 348 Q348 366 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 336 380 348 Q348 366 316 348Z;M316 348 Q348 348 380 348 Q348 348 316 348Z;M316 348 Q348 348 380 348 Q348 348 316 348Z;M316 348 Q348 336 380 348 Q348 366 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z;M316 348 Q348 330 380 348 Q348 388 316 348Z"
+    dur="8s" repeatCount="indefinite"/>
+</path>
+<!-- Palpebra superiore destra -->
+<path id="rblink" d="M420 348 Q452 330 484 348 Q452 388 420 348Z" fill="#1e0e06" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;1;0;0" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="d"
+    values="M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 336 484 348 Q452 366 420 348Z;M420 348 Q452 348 484 348 Q452 348 420 348Z;M420 348 Q452 348 484 348 Q452 348 420 348Z;M420 348 Q452 348 484 348 Q452 348 420 348Z;M420 348 Q452 336 484 348 Q452 366 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 336 484 348 Q452 366 420 348Z;M420 348 Q452 348 484 348 Q452 348 420 348Z;M420 348 Q452 348 484 348 Q452 348 420 348Z;M420 348 Q452 336 484 348 Q452 366 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z;M420 348 Q452 330 484 348 Q452 388 420 348Z"
+    dur="8s" repeatCount="indefinite"/>
+</path>
+
+<!-- ============================
+     BAFFI
+     ============================ -->
+<g stroke="#ddd8b0" stroke-linecap="round" fill="none" opacity="0.75">
+  <!-- Baffi superiori sinistri -->
+  <path d="M368 408 Q325 400 272 394" stroke-width="0.9"/>
+  <path d="M366 415 Q320 412 266 417" stroke-width="0.9"/>
+  <path d="M368 422 Q322 425 268 434" stroke-width="0.85"/>
+  <path d="M370 400 Q340 390 295 378" stroke-width="0.8"/>
+  <!-- Baffi superiori destri -->
+  <path d="M432 408 Q475 400 528 394" stroke-width="0.9"/>
+  <path d="M434 415 Q480 412 534 417" stroke-width="0.9"/>
+  <path d="M432 422 Q478 425 532 434" stroke-width="0.85"/>
+  <path d="M430 400 Q460 390 505 378" stroke-width="0.8"/>
+  <!-- Baffi del mento -->
+  <path d="M388 438 Q382 448 372 454" stroke-width="0.7" opacity="0.55"/>
+  <path d="M412 438 Q418 448 428 454" stroke-width="0.7" opacity="0.55"/>
+</g>
+
+<!-- ============================
+     COLLARE EGIZIO
+     ============================ -->
+<!-- Corpo principale del collare -->
+<path d="M238 506 Q262 486 330 476 Q364 470 400 470 Q436 470 470 476 Q538 486 562 506 Q555 532 544 546 Q522 558 500 552 Q478 546 464 550 Q444 558 422 554 Q412 552 400 554 Q388 552 378 554 Q356 558 336 550 Q322 546 300 552 Q278 558 256 546 Q245 532 238 506Z" fill="url(#goldCollar)"/>
+<!-- Sovrapposizione lucentezza collare -->
+<path d="M238 506 Q262 486 330 476 Q364 470 400 470 Q436 470 470 476 Q538 486 562 506 Q555 532 544 546 Q522 558 500 552 Q478 546 464 550 Q444 558 422 554 Q412 552 400 554 Q388 552 378 554 Q356 558 336 550 Q322 546 300 552 Q278 558 256 546 Q245 532 238 506Z" fill="url(#goldCollarSheen)" opacity="0.5"/>
+<!-- Evidenziazione bordo superiore collare -->
+<path d="M238 506 Q262 486 330 476 Q364 470 400 470 Q436 470 470 476 Q538 486 562 506" fill="none" stroke="#fff0a0" stroke-width="2.5" opacity="0.85"/>
+<!-- Bordo inferiore collare -->
+<path d="M244 528 Q265 518 310 516 Q355 514 400 516 Q445 514 490 516 Q535 518 556 528" fill="none" stroke="#9a7010" stroke-width="1.5" opacity="0.55"/>
+<!-- Linee bande orizzontali collare -->
+<path d="M241 513 Q320 500 400 500 Q480 500 559 513" fill="none" stroke="#c89a20" stroke-width="1" opacity="0.45"/>
+<path d="M240 521 Q320 507 400 507 Q480 507 560 521" fill="none" stroke="#c89a20" stroke-width="1" opacity="0.38"/>
+<!-- Separatori verticali tra celle gemme collare -->
+<g stroke="#9a7010" stroke-width="1" opacity="0.55">
+  <line x1="344" y1="472" x2="344" y2="554"/>
+  <line x1="372" y1="470" x2="372" y2="556"/>
+  <line x1="400" y1="470" x2="400" y2="556"/>
+  <line x1="428" y1="470" x2="428" y2="556"/>
+  <line x1="456" y1="472" x2="456" y2="554"/>
+  <line x1="316" y1="475" x2="316" y2="550"/>
+  <line x1="484" y1="475" x2="484" y2="550"/>
+</g>
+
+<!-- === GEMME NEL COLLARE === -->
+<!-- Turchese grande centrale -->
+<ellipse cx="400" cy="514" rx="9" ry="7.5" fill="url(#gemTurq)"/>
+<ellipse cx="400" cy="514" rx="9" ry="7.5" fill="none" stroke="#ffe080" stroke-width="0.8" opacity="0.7"/>
+<ellipse cx="397" cy="511" rx="3.5" ry="2.5" fill="#d8fff8" opacity="0.45"/>
+<!-- Lapislazzuli ai lati -->
+<ellipse cx="372" cy="513" rx="8" ry="6.5" fill="url(#gemLapis)"/>
+<ellipse cx="372" cy="513" rx="8" ry="6.5" fill="none" stroke="#ffe080" stroke-width="0.7"/>
+<ellipse cx="369" cy="510" rx="3" ry="2" fill="#c8d8ff" opacity="0.4"/>
+<ellipse cx="428" cy="513" rx="8" ry="6.5" fill="url(#gemLapis)"/>
+<ellipse cx="428" cy="513" rx="8" ry="6.5" fill="none" stroke="#ffe080" stroke-width="0.7"/>
+<ellipse cx="425" cy="510" rx="3" ry="2" fill="#c8d8ff" opacity="0.4"/>
+<!-- Turchese esterno successivo -->
+<ellipse cx="344" cy="510" rx="7.5" ry="6" fill="url(#gemTurq)"/>
+<ellipse cx="344" cy="510" rx="7.5" ry="6" fill="none" stroke="#ffe080" stroke-width="0.7"/>
+<ellipse cx="341" cy="507" rx="3" ry="2" fill="#d8fff8" opacity="0.4"/>
+<ellipse cx="456" cy="510" rx="7.5" ry="6" fill="url(#gemTurq)"/>
+<ellipse cx="456" cy="510" rx="7.5" ry="6" fill="none" stroke="#ffe080" stroke-width="0.7"/>
+<ellipse cx="453" cy="507" rx="3" ry="2" fill="#d8fff8" opacity="0.4"/>
+<!-- Lapislazzuli esterno -->
+<ellipse cx="316" cy="506" rx="7" ry="5.5" fill="url(#gemLapis)"/>
+<ellipse cx="316" cy="506" rx="7" ry="5.5" fill="none" stroke="#ffe080" stroke-width="0.6"/>
+<ellipse cx="484" cy="506" rx="7" ry="5.5" fill="url(#gemLapis)"/>
+<ellipse cx="484" cy="506" rx="7" ry="5.5" fill="none" stroke="#ffe080" stroke-width="0.6"/>
+<!-- Gemme rubino accento -->
+<ellipse cx="287" cy="500" rx="6" ry="5" fill="url(#gemRuby)"/>
+<ellipse cx="287" cy="500" rx="6" ry="5" fill="none" stroke="#ffcc80" stroke-width="0.6"/>
+<ellipse cx="513" cy="500" rx="6" ry="5" fill="url(#gemRuby)"/>
+<ellipse cx="513" cy="500" rx="6" ry="5" fill="none" stroke="#ffcc80" stroke-width="0.6"/>
+
+<!-- === PENDENTI DEL COLLARE === -->
+<!-- Pendente centrale -->
+<path d="M400 554 L396 568 Q400 574 404 568 Z" fill="url(#goldPendant)"/>
+<ellipse cx="400" cy="576" rx="5.5" ry="4.5" fill="url(#gemTurq)"/>
+<ellipse cx="400" cy="576" rx="5.5" ry="4.5" fill="none" stroke="#ffe080" stroke-width="0.6"/>
+<!-- Pendenti sinistri -->
+<path d="M372 556 L369 568 Q372 573 375 568 Z" fill="url(#goldPendant)"/>
+<ellipse cx="372" cy="575" rx="5" ry="4" fill="url(#gemLapis)"/>
+<path d="M344 554 L342 564 Q344 569 346 564 Z" fill="url(#goldPendant)"/>
+<ellipse cx="344" cy="571" rx="4.5" ry="3.5" fill="url(#gemTurq)"/>
+<!-- Pendenti destri -->
+<path d="M428 556 L431 568 Q428 573 425 568 Z" fill="url(#goldPendant)"/>
+<ellipse cx="428" cy="575" rx="5" ry="4" fill="url(#gemLapis)"/>
+<path d="M456 554 L458 564 Q456 569 454 564 Z" fill="url(#goldPendant)"/>
+<ellipse cx="456" cy="571" rx="4.5" ry="3.5" fill="url(#gemTurq)"/>
+<!-- Piccoli pendenti esterni -->
+<path d="M316 550 L315 558 Q316 562 317 558 Z" fill="url(#goldPendant)"/>
+<path d="M484 550 L485 558 Q484 562 483 558 Z" fill="url(#goldPendant)"/>
+</svg></div>
+
+</div><!-- /app -->
+
+
+
+
+<!-- ════════════════════════════════════════
+     JAVASCRIPT: MOTORE CRITTOGRAFICO + ANIMAZIONI
+════════════════════════════════════════ -->
+<script type="text/javascript">
+/* ╔══════════════════════════════════════════════════════════╗
+   ║   PROTEZIONE XSS — escapeHTML                            ║
+   ║   Effettua l'escape dei cinque caratteri HTML pericolosi  ║
+   ║   in modo che nessuna stringa fornita dall'utente possa   ║
+   ║   mai iniettare markup.                                   ║
+   ║   Usato preventivamente su ogni valore prima che tocchi   ║
+   ║   innerHTML (il pannello cipher-stats).                   ║
+   ╚══════════════════════════════════════════════════════════╝ */
+function escapeHTML(str) {
+  return String(str)
+    .replace(/&/g,  '&amp;')
+    .replace(/</g,  '&lt;')
+    .replace(/>/g,  '&gt;')
+    .replace(/"/g,  '&quot;')
+    .replace(/'/g,  '&#x27;');
+}
+(function initParticles() {
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [];
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x  = Math.random() * W;
+      this.y  = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * 0.4;
+      this.vy = -(Math.random() * 0.5 + 0.1);
+      this.size   = Math.random() * 2 + 0.5;
+      this.alpha  = Math.random() * 0.5 + 0.1;
+      this.color  = Math.random() > 0.5 ? '#c9a84c' : '#d4b483';
+      this.life   = 0;
+      this.maxLife = Math.random() * 200 + 100;
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      this.life++;
+      if (this.life > this.maxLife || this.y < -10) this.reset();
+    }
+    draw() {
+      const fade = 1 - this.life / this.maxLife;
+      ctx.globalAlpha = this.alpha * fade;
+      ctx.fillStyle   = this.color;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < 80; i++) {
+    const p = new Particle();
+    p.life = Math.random() * p.maxLife; // sfasamento
+    particles.push(p);
+  }
+
+  function loop() {
+    ctx.clearRect(0, 0, W, H);
+    particles.forEach(p => { p.update(); p.draw(); });
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          EFFETTO ESPLOSIONE RUNE                        ║
+   ╚══════════════════════════════════════════════════════════╝ */
+function spawnRuneBursts(cx, cy) {
+  const runes = ['𓃠','𓂀','𓆣','𓇯','𓋹','𓊹','𓁹','𓄿','𓅀','𓅱'];
+  for (let i = 0; i < 14; i++) {
+    const el = document.createElement('div');
+    el.className = 'rune-burst';
+    el.textContent = runes[Math.floor(Math.random() * runes.length)];
+    const angle = (i / 14) * Math.PI * 2;
+    const dist  = 80 + Math.random() * 120;
+    el.style.setProperty('--tx', `${Math.cos(angle)*dist}px`);
+    el.style.setProperty('--ty', `${Math.sin(angle)*dist - 60}px`);
+    el.style.left = (cx - 10) + 'px';
+    el.style.top  = (cy - 10) + 'px';
+    el.style.animationDelay = (Math.random() * 0.3) + 's';
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 1500);
+  }
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          UTILITÀ: ANIMAZIONE DISPLAY RUNE               ║
+   ╚══════════════════════════════════════════════════════════╝ */
+const RUNE_POOL = ['𓃠','𓂀','𓆣','𓇯','𓋹','𓊹','𓁹','𓄿','𓅀','𓅱','𓆑','𓆰'];
+let runeAnimInterval = null;
+
+function startRuneAnimation() {
+  const el = document.getElementById('rune-display');
+  el.style.color = 'var(--gold-bright)';
+  el.style.textShadow = '0 0 16px var(--gold-bright)';
+  runeAnimInterval = setInterval(() => {
+    let str = '';
+    for (let i = 0; i < 6; i++) str += RUNE_POOL[Math.floor(Math.random() * RUNE_POOL.length)] + ' ';
+    el.textContent = str.trim();
+  }, 80);
+}
+
+function stopRuneAnimation() {
+  clearInterval(runeAnimInterval);
+  const el = document.getElementById('rune-display');
+  el.textContent = '𓃠 𓂀 𓊹 𓆣 𓇯 𓋹';
+  el.style.color = 'var(--gold)';
+  el.style.textShadow = '0 0 8px var(--gold)';
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          UTILITÀ CRITTOGRAFICHE (Web Crypto API)        ║
+   ╚══════════════════════════════════════════════════════════╝ */
+
+/** Codifica stringa in Uint8Array (UTF-8) */
+function encode(str) {
+  return new TextEncoder().encode(str);
+}
+
+/** ArrayBuffer → stringa esadecimale */
+function bufToHex(buf) {
+  return Array.from(new Uint8Array(buf))
+    .map(b => b.toString(16).padStart(2,'0'))
+    .join('');
+}
+
+/** SHA-256 → hex */
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', encode(str));
+  return bufToHex(buf);
+}
+
+/** SHA-384 → hex */
+async function sha384(str) {
+  const buf = await crypto.subtle.digest('SHA-384', encode(str));
+  return bufToHex(buf);
+}
+
+/** SHA-512 → hex */
+async function sha512(str) {
+  const buf = await crypto.subtle.digest('SHA-512', encode(str));
+  return bufToHex(buf);
+}
+
+/** PBKDF2 con HMAC-SHA-512 → stringa esadecimale */
+async function pbkdf2(password, saltStr, iterations, keyLength) {
+  const keyMaterial = await crypto.subtle.importKey(
+    'raw',
+    encode(password),
+    { name: 'PBKDF2' },
+    false,
+    ['deriveBits']
+  );
+  const bits = await crypto.subtle.deriveBits(
+    {
+      name: 'PBKDF2',
+      salt: encode(saltStr),
+      iterations: iterations,
+      hash: 'SHA-512'
+    },
+    keyMaterial,
+    keyLength * 8
+  );
+  return bufToHex(bits);
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          PASSO 3: LIVELLO DI TRASFORMAZIONE PROPRIETARIO ║
+   ╚══════════════════════════════════════════════════════════╝ */
+
+/**
+ * transformHash(hash, seed)
+ * Trasformazione deterministica a più stadi:
+ *  1. Rotazione dei caratteri a sinistra di (seedNum % hash.length)
+ *  2. Scambio di caratteri in posizioni pari/dispari basato sul nibble del seed
+ *  3. Rimappatura di ogni cifra hex tramite tabella di sostituzione derivata dal seed
+ *  4. Inversione di sezioni di lunghezza determinata dal seed
+ */
+function transformHash(hash, seed) {
+  const len = hash.length;
+
+  // Deriva un seed numerico dai primi 8 caratteri della stringa hex del seed
+  const seedNum = parseInt(seed.substring(0, 8), 16) >>> 0;
+
+  /* — Stadio 1: Rotazione sinistra — */
+  const rotAmt = seedNum % len;
+  let s = hash.slice(rotAmt) + hash.slice(0, rotAmt);
+
+  /* — Stadio 2: Scambio ogni N posizioni — */
+  const swapStep = (seedNum % 7) + 2; // 2..8
+  const arr = s.split('');
+  for (let i = 0; i + swapStep < len; i += swapStep * 2) {
+    const j = i + swapStep;
+    if (j < len) {
+      const tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+    }
+  }
+  s = arr.join('');
+
+  /* — Stadio 3: Rimappatura cifre hex tramite tabella di sostituzione deterministica — */
+  // Costruisce la permutazione a 16 elementi derivata dal seed
+  const seedBytes = [];
+  for (let i = 0; i < 8; i++) seedBytes.push(parseInt(seed.substring(i*2, i*2+2), 16));
+  // Shuffle Fisher-Yates con seed di [0..15]
+  const hexMap = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+  let rng = seedNum;
+  for (let i = 15; i > 0; i--) {
+    rng = (rng * 1664525 + 1013904223) >>> 0; // LCG
+    const j = rng % (i + 1);
+    [hexMap[i], hexMap[j]] = [hexMap[j], hexMap[i]];
+  }
+  const HEX_CHARS = '0123456789abcdef';
+  s = s.split('').map(c => {
+    const idx = HEX_CHARS.indexOf(c.toLowerCase());
+    if (idx === -1) return c;
+    return HEX_CHARS[hexMap[idx]];
+  }).join('');
+
+  /* — Stadio 4: Inversione sezioni deterministiche — */
+  const secLen = (seedNum % 12) + 4; // 4..15
+  const chunks = [];
+  for (let i = 0; i < len; i += secLen) chunks.push(s.slice(i, i + secLen));
+  // Inverti ogni blocco a indice dispari
+  s = chunks.map((chunk, idx) => idx % 2 === 1 ? chunk.split('').reverse().join('') : chunk).join('');
+
+  return s;
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          PASSO 7: INSERIMENTO CARATTERI CON PRNG SEED   ║
+   ╚══════════════════════════════════════════════════════════╝ */
+
+/** Generatore di numeri pseudo-casuali LCG con seed */
+function createPRNG(seedHex) {
+  let state = parseInt(seedHex.substring(0, 8), 16) >>> 0;
+  return function next() {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    return state / 0xFFFFFFFF;
+  };
+}
+
+/** Inserisce caratteri speciali in posizioni deterministiche */
+function insertSpecialChars(str, seedHex) {
+  const SPECIAL = '!@#$%^&*_-+=~?';
+  const rng = createPRNG(seedHex);
+  const insertCount = 8 + Math.floor(rng() * 8); // 8..15 inserimenti
+  const arr = str.split('');
+
+  for (let i = 0; i < insertCount; i++) {
+    const pos   = Math.floor(rng() * (arr.length + 1));
+    const char  = SPECIAL[Math.floor(rng() * SPECIAL.length)];
+    arr.splice(pos, 0, char);
+  }
+  return arr.join('');
+}
+
+/**
+ * applyMixedCase(str, seedHex)
+ * Rende deterministicamente esattamente il 50% dei caratteri alfabetici maiuscoli
+ * e l'altro 50% minuscoli, usando un PRNG con seed in modo che il risultato sia
+ * sempre identico per lo stesso input+PIM.
+ * I caratteri non alfabetici (cifre, speciali, punteggiatura) non vengono modificati.
+ */
+function applyMixedCase(str, seedHex) {
+  // Usa un nuovo PRNG con seed da un derivato in modo da non collidere con
+  // il PRNG di inserimento caratteri speciali sopra.
+  const rng = createPRNG(seedHex.split('').reverse().join('')); // seed invertito → flusso indipendente
+
+  // Raccoglie gli indici di tutti i caratteri alfabetici
+  const alphaIndices = [];
+  for (let i = 0; i < str.length; i++) {
+    if (/[a-zA-Z]/.test(str[i])) alphaIndices.push(i);
+  }
+
+  // Decide esattamente quale metà viene messa in maiuscolo tramite shuffle Fisher-Yates deterministico,
+  // poi prende la prima metà come "insieme maiuscolo".
+  const half = Math.ceil(alphaIndices.length / 2);
+  const shuffled = [...alphaIndices];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const upperSet = new Set(shuffled.slice(0, half));
+
+  // Applica la capitalizzazione
+  return str.split('').map((c, i) => {
+    if (!/[a-zA-Z]/.test(c)) return c;          // lascia intatti speciali/cifre
+    return upperSet.has(i) ? c.toUpperCase() : c.toLowerCase();
+  }).join('');
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          PIPELINE PRINCIPALE DEL CIFRARIO               ║
+   ╚══════════════════════════════════════════════════════════╝ */
+
+const PEPPER = 'Bastet_Secret_Temple_Key_\u{13060}'; // 𓃠 Unicode incluso
+
+async function runCipherPipeline(input, pim, onProgress) {
+  /* PASSO 1 — Sale deterministico */
+  onProgress(10, 'Invocando il Sale Sacro...');
+  const salt = await sha256('BastetCipher' + input + pim + PEPPER + 'SacredSalt');
+
+  /* PASSO 2 — Hash di base */
+  onProgress(20, 'Forgiando gli hash di base...');
+  const h1 = await sha256(input + salt + pim + PEPPER);
+  const h2 = await sha384(salt + input + pim + PEPPER);
+  const h3 = await sha512(input + ':' + salt + ':' + pim + ':' + PEPPER);
+
+  /* PASSO 3 — Deriva il seed per la trasformazione */
+  onProgress(30, 'Derivando il seed di trasformazione...');
+  const seed = await sha256(input + pim + PEPPER);
+
+  /* PASSO 4 — Applica le trasformazioni */
+  onProgress(40, 'Applicando la trasformazione proprietaria...');
+  const t1 = transformHash(h1, seed);
+  const t2 = transformHash(h2, seed);
+  const t3 = transformHash(h3, seed);
+
+  /* PASSO 5 — Combina */
+  onProgress(50, 'Combinando gli hash sacri...');
+  const combined = '.,' + t1 + t2 + t3 + ',.';
+
+  /* PASSO 6 — Derivazione chiave PBKDF2
+     Le iterazioni sono derivate dal PIM tramite una mappatura non lineare basata su hash:
+     - Prendiamo le prime 6 cifre hex di SHA-256(pim + pepper) → un intero a 24 bit (0..16777215)
+     - Lo scaliamo nell'intervallo [50.000 .. 600.000]
+     - Poi XOR-fold il pimNum grezzo (mod 65537) per rendere ogni valore PIM unico
+     - Questo mantiene i tempi veloci (~1-3 s) preservando piena sensibilità al PIM.        */
+  const pimNum   = parseInt(pim, 10);
+  const pimHash  = await sha256(pim + PEPPER + 'IterSeed');
+  const hashInt  = parseInt(pimHash.substring(0, 6), 16); // 0..16777215
+  const baseIter = 50000 + Math.floor((hashInt / 16777215) * 550000); // 50k..600k
+  const twist    = (pimNum % 65537) * 7;                               // offset unico del PIM
+  const iters    = baseIter + twist;
+  onProgress(60, `PBKDF2 · ${iters.toLocaleString()} iterazioni...`);
+  const pbkdf2Salt = await sha256('BastetCipher' + input + pim + PEPPER);
+  const derivedKey = await pbkdf2(combined + PEPPER, pbkdf2Salt, iters, 64);
+  onProgress(85, 'Chiave derivata. Inserimento glifi sacri...');
+
+  /* PASSO 7 — Inserimento deterministico di caratteri speciali */
+  const withSpecial = insertSpecialChars(derivedKey, seed);
+
+  /* PASSO 7b — Capitalizzazione mista deterministica (50% maiuscolo / 50% minuscolo sui caratteri alfa) */
+  const withCase = applyMixedCase(withSpecial, seed);
+
+  /* PASSO 8 — Cifrario finale */
+  onProgress(95, 'Sigillando con la benedizione di Bastet...');
+  const finalCipher = '.,' + withCase + ',.';
+
+  onProgress(100, 'Cifrario completato.');
+  return { finalCipher, iters, saltHex: salt };
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          UI: GESTORE GENERA CIFRARIO                    ║
+   ╚══════════════════════════════════════════════════════════╝ */
+let lastCipher = '';
+
+async function generateCipher() {
+  const input = document.getElementById('input-phrase').value.trim();
+  const pimRaw = document.getElementById('input-pim').value.trim();
+  const errEl  = document.getElementById('error-msg');
+
+  /* Validazione */
+  if (!input || !pimRaw || !/^\d{1,32}$/.test(pimRaw)) {
+    errEl.classList.add('visible');
+    setTimeout(() => errEl.classList.remove('visible'), 4000);
+    return;
+  }
+  errEl.classList.remove('visible');
+
+  const btn = document.getElementById('btn-generate');
+  btn.disabled = true;
+
+  /* Avvia effetti visivi */
+  const pyramid = document.getElementById('bg-pyramid');
+  pyramid.classList.add('active');
+  document.getElementById('cipher-wheel-wrap').classList.add('spinning');
+  document.getElementById('eye-left').classList.add('active');
+  document.getElementById('eye-right').classList.add('active');
+  document.getElementById('lock-icon').textContent = '🔓';
+  document.getElementById('lock-icon').classList.add('unlocked');
+  document.getElementById('swirl-overlay').classList.add('active');
+  startRuneAnimation();
+
+  /* Genera esplosioni di rune dal pulsante */
+  const btnRect = btn.getBoundingClientRect();
+  spawnRuneBursts(btnRect.left + btnRect.width/2, btnRect.top + btnRect.height/2);
+
+  /* Mostra barra di stato */
+  const statusBar  = document.getElementById('status-bar');
+  const statusFill = document.getElementById('progress-fill');
+  const statusText = document.getElementById('status-text');
+  statusBar.classList.add('active');
+
+  function onProgress(pct, msg) {
+    statusFill.style.width = pct + '%';
+    statusText.textContent = msg;
+  }
+
+  /* Nasconde output durante l'elaborazione */
+  document.getElementById('output-section').classList.remove('visible');
+
+  try {
+    const { finalCipher, iters, saltHex } = await runCipherPipeline(input, pimRaw, onProgress);
+    lastCipher = finalCipher;
+
+    /* Rivela output con effetto macchina da scrivere */
+    const outputEl = document.getElementById('output-text');
+    outputEl.textContent = '';
+    document.getElementById('output-section').classList.add('visible');
+
+    // Visualizzazione a blocchi
+    const chunkSize = 8;
+    let pos = 0;
+    const typer = setInterval(() => {
+      pos = Math.min(pos + chunkSize, finalCipher.length);
+      outputEl.textContent = finalCipher.slice(0, pos);
+      if (pos >= finalCipher.length) {
+        clearInterval(typer);
+        outputEl.classList.remove('cipher-cursor');
+
+        /* ── Costruzione DOM sicura — nessun innerHTML con dati utente ── */
+        const statsEl = document.getElementById('cipher-stats');
+        statsEl.textContent = ''; // cancella contenuto precedente in modo sicuro
+
+        // Ogni statistica: [ testo etichetta, testo valore ]
+        const stats = [
+          ['Lunghezza',    finalCipher.length + ' caratteri'],
+          ['Iterazioni', iters.toLocaleString()],
+          ['Algoritmo', 'PBKDF2-HMAC-SHA512'],
+          ['Sale',      saltHex.substring(0, 12) + '\u2026'],
+        ];
+        stats.forEach(([label, value]) => {
+          const badge  = document.createElement('span');
+          badge.className = 'stat-badge';
+          // etichetta come nodo di testo semplice
+          badge.appendChild(document.createTextNode(label + ' '));
+          const strong = document.createElement('strong');
+          strong.textContent = value;   // textContent — mai interpretato come HTML
+          badge.appendChild(strong);
+          statsEl.appendChild(badge);
+        });
+      }
+    }, 18);
+
+    // Altre esplosioni al completamento
+    setTimeout(() => {
+      spawnRuneBursts(window.innerWidth/2, window.innerHeight/2);
+    }, 200);
+
+  } catch(err) {
+    statusText.textContent = 'Errore: ' + err.message;
+    console.error('Errore BastetCipher:', err);
+  } finally {
+    setTimeout(() => {
+      btn.disabled = false;
+      pyramid.classList.remove('active');
+      document.getElementById('cipher-wheel-wrap').classList.remove('spinning');
+      document.getElementById('swirl-overlay').classList.remove('active');
+      stopRuneAnimation();
+      document.getElementById('lock-icon').classList.remove('unlocked');
+      document.getElementById('lock-icon').textContent = '🔒';
+      // mantieni gli occhi attivi per un po'
+      setTimeout(() => {
+        document.getElementById('eye-left').classList.remove('active');
+        document.getElementById('eye-right').classList.remove('active');
+      }, 2000);
+      statusBar.classList.remove('active');
+    }, 1200);
+  }
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          UI: COPIA NEGLI APPUNTI                        ║
+   ╚══════════════════════════════════════════════════════════╝ */
+async function copyCipher() {
+  if (!lastCipher) return;
+  try {
+    await navigator.clipboard.writeText(lastCipher);
+    const btn = document.getElementById('btn-copy');
+    btn.textContent = '✓ Copiato! 𓃠';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copia negli Appunti 𓂀';
+      btn.classList.remove('copied');
+    }, 2500);
+  } catch(e) {
+    // Fallback per browser più vecchi
+    const el = document.createElement('textarea');
+    el.value = lastCipher;
+    el.style.cssText = 'position:fixed;opacity:0;';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    el.remove();
+    document.getElementById('btn-copy').textContent = '✓ Copiato!';
+    setTimeout(() => { document.getElementById('btn-copy').textContent = 'Copia negli Appunti 𓂀'; }, 2000);
+  }
+}
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          ANIMAZIONE OCCHI SVG DI BASTET                 ║
+   ╚══════════════════════════════════════════════════════════╝ */
+(function animateBastetEyes() {
+  const leftEye  = document.getElementById('left-eye');
+  const rightEye = document.getElementById('right-eye');
+  if (!leftEye || !rightEye) return;
+
+  const colors = ['#00ff88','#00cc66','#88ff44','#00ffcc','#ffcc00'];
+  let t = 0;
+  function pulse() {
+    t++;
+    const brightness = 0.6 + 0.4 * Math.sin(t * 0.05);
+    const colorIdx = Math.floor(t * 0.02) % colors.length;
+    const glowColor = colors[colorIdx];
+    const g = `0 0 ${8 + 12 * brightness}px ${glowColor}`;
+    leftEye.style.filter  = `drop-shadow(${g})`;
+    rightEye.style.filter = `drop-shadow(${g})`;
+    requestAnimationFrame(pulse);
+  }
+  pulse();
+})();
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          TASTO INVIO PER GENERARE                       ║
+   ╚══════════════════════════════════════════════════════════╝ */
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' && !document.getElementById('btn-generate').disabled) {
+    generateCipher();
+  }
+});
+
+
+/* ╔══════════════════════════════════════════════════════════╗
+   ║          VALIDAZIONE LUNGHEZZA CIFRE PIM                ║
+   ╚══════════════════════════════════════════════════════════╝ */
+document.getElementById('input-pim').addEventListener('input', function() {
+  if (this.value.length > 32) this.value = this.value.slice(0, 32);
+  if (this.value.startsWith('0') && this.value.length > 1) this.value = this.value.replace(/^0+/, '') || '0';
+});
+
+</script>
+</body>
+</html>
