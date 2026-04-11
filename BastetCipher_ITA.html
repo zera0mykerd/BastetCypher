@@ -73,6 +73,7 @@
 #vault-viewer-body{flex:1;overflow:hidden;position:relative;background:#0a100b;}
 #vault-viewer-frame{width:100%;height:100%;border:none;background:#fff;}
 #vault-viewer-security-bar{flex-shrink:0;padding:5px 16px;background:rgba(0,0,0,0.6);border-top:1px solid rgba(0,200,150,0.12);font-size:0.62rem;letter-spacing:0.1em;color:rgba(0,200,150,0.38);text-align:center;font-family:'Palatino Linotype','Palatino',serif;}
+.input-wrapper .stone-input {transition: all 0.3s ease;}#toggle-phrase {opacity: 0.7;transition: opacity 0.3s, transform 0.2s;}#toggle-phrase:hover {opacity: 1;transform: scale(1.2);}
 </style>
 </head>
 <body>
@@ -325,18 +326,22 @@
       </div>
     </div>
     <div class="field-group">
-      <label class="field-label" for="input-phrase">
-        <span>𓂀</span> Frase Segreta
-      </label>
-      <input
-        type="text"
-        id="input-phrase"
-        class="stone-input"
-        placeholder="Inserisci la tua frase segreta..."
-        autocomplete="off"
-        spellcheck="false"
-      />
-    </div>
+  <label class="field-label" for="input-phrase">
+    <span>𓂀</span> Frase Segreta
+  </label>
+  <div class="input-wrapper" style="position: relative; display: flex; align-items: center;">
+    <input
+      type="password" 
+      id="input-phrase"
+      class="stone-input"
+      placeholder="Inserisci la tua frase segreta..."
+      autocomplete="off"
+      spellcheck="false"
+      style="width: 100%; padding-right: 45px;"
+    />
+    <span id="toggle-phrase" style="position: absolute; right: 12px; cursor: pointer; font-size: 1.2rem; user-select: none; filter: drop-shadow(0 0 5px var(--gold));">👁️</span>
+  </div>
+</div>
     <div class="field-group">
       <label class="field-label" for="input-pim">
         <span>𓆣</span> PIM — Moltiplicatore Personale delle Iterazioni
@@ -1139,6 +1144,18 @@ document.getElementById('input-amplifier').addEventListener('input', function() 
   if (v > 9999) v = 9999;
   this.value = String(v);
 });
+(function initPasswordToggle() {
+  const phraseInput = document.getElementById('input-phrase');
+  const toggleBtn = document.getElementById('toggle-phrase');
+  if (phraseInput && toggleBtn) {
+    toggleBtn.addEventListener('click', function() {
+      const isPassword = phraseInput.getAttribute('type') === 'password';
+      phraseInput.setAttribute('type', isPassword ? 'text' : 'password');
+      this.textContent = isPassword ? '𓁹' : '👁️'; 
+      this.style.filter = isPassword ? 'drop-shadow(0 0 10px var(--gold-bright))' : 'drop-shadow(0 0 5px var(--gold))';
+    });
+  }
+})();
 /* Separator */
 const BCA_MAGIC   = new Uint8Array([0x42,0x43,0x41,0x01]);
 const BCA_VERSION = 1;
